@@ -1,0 +1,14 @@
+.css_tr_tipo_identificacion_label, .css_tr_tipo_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_tipo_identificacion_grid_line, .css_tr_tipo_identificacion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_identificacion_label, .css_tr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_identificacion_grid_line, .css_tr_identificacion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_nombre_label, .css_tr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_nombre_grid_line, .css_tr_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_direccion_label, .css_tr_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_direccion_grid_line, .css_tr_direccion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_telefono_label, .css_tr_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_telefono_grid_line, .css_tr_telefono_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_email_label, .css_tr_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_email_grid_line, .css_tr_email_grid_line:hover {vertical-align: top;text-align: left;}
+.css_tr_placa_label, .css_tr_placa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tr_placa_grid_line, .css_tr_placa_grid_line:hover {vertical-align: top;text-align: left;}

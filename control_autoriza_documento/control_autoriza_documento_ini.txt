@@ -1,0 +1,7 @@
+index.php
+debi_doc_electronicos
+control_autoriza_documento
+NAO
+contr
+control_autoriza_documento
+LigMd5

@@ -1,0 +1,22 @@
+.css_ret_fecha_label, .css_ret_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_fecha_grid_line, .css_ret_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_cliente_label, .css_ret_cliente_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_cliente_grid_line, .css_ret_cliente_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_serie_label, .css_ret_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_serie_grid_line, .css_ret_serie_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_right_label, .css_right_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_right_grid_line, .css_right_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_autorizacion_label, .css_ret_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_autorizacion_grid_line, .css_ret_autorizacion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_mes_periodo_fiscal_label, .css_ret_mes_periodo_fiscal_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_mes_periodo_fiscal_grid_line, .css_ret_mes_periodo_fiscal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_anio_periodo_fiscal_label, .css_ret_anio_periodo_fiscal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ret_anio_periodo_fiscal_grid_line, .css_ret_anio_periodo_fiscal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_estado_sri_label, .css_ret_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_estado_sri_grid_line, .css_ret_estado_sri_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_numero_label, .css_ret_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ret_numero_grid_line, .css_ret_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_tipo_comprobante_label, .css_ret_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_tipo_comprobante_grid_line, .css_ret_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_empresa_label, .css_ret_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_empresa_grid_line, .css_ret_empresa_grid_line:hover {vertical-align: middle;text-align: right;}

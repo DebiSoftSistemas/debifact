@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+body{
+    text-align:center;
+	font-family:sans-serif;
+	margin:0;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0,0.8);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    animation: modal 2s 1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal .contenido-modal{
+    margin: auto;
+    width: 60%;
+    height: 95%;
+    background: white;
+    border-radius: 10px;
+}
+.modal .contenido-modal img{
+    width: 80%;
+    height: 80%;
+}
+
+#cerrar{
+    display: none;
+}
+#cerrar + label{
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor:pointer;
+
+    animation: modal 2s 1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
+}
+
+@keyframes modal{
+    100%{
+    visibility: visible;
+    opacity: 1;
+    }
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 12px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.container .card h4{
+    font-weight: 500;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}

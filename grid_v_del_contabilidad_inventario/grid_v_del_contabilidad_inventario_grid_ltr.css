@@ -1,0 +1,28 @@
+.css_kar_fecha_label, .css_kar_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_fecha_grid_line, .css_kar_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_kar_tipo_movimiento_label, .css_kar_tipo_movimiento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_tipo_movimiento_grid_line, .css_kar_tipo_movimiento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_kar_tipo_documento_label, .css_kar_tipo_documento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_tipo_documento_grid_line, .css_kar_tipo_documento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_descripcion_label, .css_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_descripcion_grid_line, .css_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_total_ingreso_label, .css_total_ingreso_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_total_ingreso_grid_line, .css_total_ingreso_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_total_ingreso_tot_ger, .css_total_ingreso_tot_ger:hover {text-align: ;text-align: right;}
+.css_total_salida_label, .css_total_salida_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_total_salida_grid_line, .css_total_salida_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_total_salida_tot_ger, .css_total_salida_tot_ger:hover {text-align: ;text-align: right;}
+.css_id_label, .css_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_grid_line, .css_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_kar_empresa_label, .css_kar_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_empresa_grid_line, .css_kar_empresa_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_kar_bodega_label, .css_kar_bodega_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_kar_bodega_grid_line, .css_kar_bodega_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_kar_documento_label, .css_kar_documento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_kar_documento_grid_line, .css_kar_documento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_kar_asiento_label, .css_kar_asiento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_asiento_grid_line, .css_kar_asiento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_total_ingreso_S_sub_tot, .css_total_ingreso_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_total_ingreso_S_tot_ger, .css_total_ingreso_S_tot_ger:hover {text-align: right;}
+.css_total_salida_S_sub_tot, .css_total_salida_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_total_salida_S_tot_ger, .css_total_salida_S_tot_ger:hover {text-align: right;}

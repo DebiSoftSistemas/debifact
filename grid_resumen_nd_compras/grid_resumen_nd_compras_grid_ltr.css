@@ -1,0 +1,34 @@
+.css_nd_fecha_label, .css_nd_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_fecha_grid_line, .css_nd_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_serie_label, .css_nd_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_serie_grid_line, .css_nd_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_secuencial_label, .css_nd_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_secuencial_grid_line, .css_nd_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sc_field_0_label, .css_sc_field_0_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sc_field_0_grid_line, .css_sc_field_0_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_subtotal_label, .css_nd_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_grid_line, .css_nd_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_tot_ger, .css_nd_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_valor_iva_label, .css_nd_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_valor_iva_grid_line, .css_nd_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_valor_iva_tot_ger, .css_nd_valor_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_total_label, .css_nd_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_total_grid_line, .css_nd_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_total_tot_ger, .css_nd_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_pr_direccion_label, .css_pr_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_direccion_grid_line, .css_pr_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_telefono_label, .css_pr_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_telefono_grid_line, .css_pr_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_email_label, .css_pr_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_email_grid_line, .css_pr_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_fecha_emison_docmod_label, .css_nd_fecha_emison_docmod_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_fecha_emison_docmod_grid_line, .css_nd_fecha_emison_docmod_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_autorizacion_label, .css_nd_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_autorizacion_grid_line, .css_nd_autorizacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_subtotal_S_tot_ger, .css_nd_subtotal_S_tot_ger:hover {text-align: right;}
+.css_nd_valor_iva_S_tot_ger, .css_nd_valor_iva_S_tot_ger:hover {text-align: right;}
+.css_nd_total_S_tot_ger, .css_nd_total_S_tot_ger:hover {text-align: right;}

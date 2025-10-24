@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ayuda Debifact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 3px;
+      }
+
+      body {
+        font-family: "Montserrat";
+        background-image: url(_lib/img/fondo1.png);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+
+      .div1 {
+        float: left;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-right: 6px solid black;
+        border-radius: 22px;
+        background-color: white;
+        width: 100px;
+        height: 600px;
+      }
+
+      .divam {
+        border-top: 6px solid #eb9b1a;
+        border-radius: 22px;
+        float: left;
+        width: 1000px;
+        height: 60px;
+        margin: 1px;
+      }
+      .divazul {
+        border-top: 6px solid #008d96;
+        border-radius: 22px;
+        float: left;
+        width: 1000px;
+        height: 60px;
+        margin: 1px;
+      }
+      .div3 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        float: left;
+        width: 300px;
+        height: 55px;
+      }
+
+      .div5 {
+        align-items: center;
+        display: flex;
+        justify-content: left;
+        float: left;
+        width: 300px;
+        height: 55px;
+      }
+
+      article {
+        float: left;
+        width: 300px;
+        height: 600px;
+      }
+
+      .titulo {
+        font-size: 30px;
+        writing-mode: vertical-lr;
+      }
+
+      .div4 {
+        float: left;
+        width: 300px;
+        text-align: center;
+      }
+
+      .ima {
+        height: 48px;
+      }
+      p {
+        font-weight: bold;
+        -webkit-text-stroke: 1px;
+        font-size: 25px;
+      }
+      a {
+        font-weight: bolder;
+
+        font-size: 20px;
+      }
+      .divho{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media screen and (max-width: 540px) {
+        nav,
+        article {
+          width: auto;
+          height: auto;
+        }
+        body {
+          font-family: "Montserrat";
+          background-image: url(_lib/img/fondo.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          padding: auto;
+        }
+        .divti {
+          width: 400px;
+          height: 100px;
+          border-right: 6px solid white;
+        }
+        .div1 {
+          visibility: hidden;
+          width: 0px;
+        height: 0px;
+        }
+        .divho{
+        visibility: visible;
+      }
+        .div11 {
+          width: 400px;
+          height: 70px;
+        }
+        .div12 {
+          width: 145px;
+        }
+        .div13 {
+          width: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="div1">
+        <img src="_lib/img/ver.png" width="100px" height="600px" >
+		</div>
+
+      <div class=" divti divho">
+        <img src="_lib/img/hori.jpg" width="400px" height="100px" >
+		</div>
+
+      <article>
+        <div class="divam div11">
+          <div class="div3 div13">
+            <p>01</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=0" target="_blank">REGISTRO</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/registro.png" />
+          </div>
+        </div>
+
+        <div class="divazul div11">
+          <div class="div3 div13">
+            <p>02</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=82" target="_blank">INICIAR SESIÓN</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/iniciose.png" />
+          </div>
+        </div>
+
+        <div class="divam div11">
+          <div class="div3 div13">
+            <p>03</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=100" target="_blank">CONFIGURACIÓN</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/configuracion.png" />
+          </div>
+        </div>
+
+        <div class="divazul div11">
+          <div class="div3 div13">
+            <p>04</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=246" target="_blank">COMPRA DE LIBRETIN</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/comprali.png" />
+          </div>
+        </div>
+
+        <div class="divam div11">
+          <div class="div3 div13">
+            <p>05</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=315" target="_blank">ACTIVAR LIBRETIN</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/activar.png" />
+          </div>
+        </div>
+
+        <div class="divazul div11">
+          <div class="div3 div13">
+            <p>06</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=350" target="_blank">CREAR PRODUCTOS</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/crear.png" />
+          </div>
+        </div>
+
+        <div class="divam div11">
+          <div class="div3 div13">
+            <p>07</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=565" target="_blank">FORMAS DE PAGO</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/formaspago.png" />
+          </div>
+        </div>
+
+        <div class="divazul div11">
+          <div class="div3 div13">
+            <p>08</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=607" target="_blank">CREAR CLIENTES</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/agregar-usuario.png" />
+          </div>
+        </div>
+
+        <div class="divam div11">
+          <div class="div3 div13">
+            <p>09</p>
+          </div>
+          <div class="div5 div12">
+            <a href="https://youtu.be/eg-xtn0vQZY?t=639" target="_blank">FACTURA SIMPLE</a>
+          </div>
+          <div class="div4 div12">
+            <img class="ima" src="_lib/img/factura.png" />
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

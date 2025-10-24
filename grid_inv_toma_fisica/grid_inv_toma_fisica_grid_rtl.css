@@ -1,0 +1,10 @@
+.css_inv_toma_fisica_tf_fecha_label, .css_inv_toma_fisica_tf_fecha_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_inv_toma_fisica_tf_fecha_grid_line, .css_inv_toma_fisica_tf_fecha_grid_line:hover {vertical-align: top;text-align: center;}
+.css_inv_bodega_bo_establecimiento_label, .css_inv_bodega_bo_establecimiento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_inv_bodega_bo_establecimiento_grid_line, .css_inv_bodega_bo_establecimiento_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_toma_fisica_tf_bodega_label, .css_inv_toma_fisica_tf_bodega_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_inv_toma_fisica_tf_bodega_grid_line, .css_inv_toma_fisica_tf_bodega_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_toma_fisica_tf_comentario_label, .css_inv_toma_fisica_tf_comentario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_toma_fisica_tf_comentario_grid_line, .css_inv_toma_fisica_tf_comentario_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_toma_fisica_tf_estado_label, .css_inv_toma_fisica_tf_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_toma_fisica_tf_estado_grid_line, .css_inv_toma_fisica_tf_estado_grid_line:hover {vertical-align: top;text-align: right;}

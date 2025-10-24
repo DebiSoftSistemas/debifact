@@ -1,0 +1,75 @@
+<html>
+	<head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <style>
+        body{
+    		padding:0px;
+        }
+         .show-on-hover:hover > ul.dropdown-menu {
+            display: block;
+        }
+        .show-on-hover{
+        	position: fixed;
+			right: 10px;
+        	top: 0px;
+        }
+        .dropdown-menu > a:hover {
+        	background-color: #007bff;
+        	color: black;
+        }
+        .dropdown-menu{
+        	min-width: 300px;
+        	right: 10px !important;
+        	left: inherit !important;
+        	padding-top: 0px;
+			top: 30px;
+			right: 8px !important;
+        }
+        .dropdown-toggle::after{
+        	display: none !important;
+        }
+        .dropdown-toggle{
+        	background: none !important;
+        }
+        #round-badge1{
+        	
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+        }
+        #round-badge{
+			
+        	width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+        }
+      </style>
+  	</head>
+  	<body>
+		<div class="row">
+        	<div class="col-md-1">
+				<a href="../grid_del_compra_libretines/grid_del_compra_libretines.php" target="mnu_opciones_iframe" style="vertical-align: middle; display:inline-block;">
+					<button type="button" class="btn btn-default">
+						<i class="fas fa-cart-arrow-down"></i><span id="round-badge" class="badge">0</span>
+					</button>
+                </a>
+			</div>
+			<div class="col-md-1"></div> 
+            <div class="col-md-1">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<i class="far fa-bell"></i><span id="round-badge1" class="badge">0</span>
+                </button>
+                <ul id="dropdow-main" class="dropdown-menu" role="menu"></ul>
+			</div>
+		</div>
+		
+  	</body>
+</html>
+

@@ -1,0 +1,8 @@
+.css_inv_transferencias_tr_fecha_label, .css_inv_transferencias_tr_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_transferencias_tr_fecha_grid_line, .css_inv_transferencias_tr_fecha_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_transferencias_tr_bodega_origen_label, .css_inv_transferencias_tr_bodega_origen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_transferencias_tr_bodega_origen_grid_line, .css_inv_transferencias_tr_bodega_origen_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_transferencias_tr_bodega_destino_label, .css_inv_transferencias_tr_bodega_destino_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_transferencias_tr_bodega_destino_grid_line, .css_inv_transferencias_tr_bodega_destino_grid_line:hover {vertical-align: top;text-align: right;}
+.css_inv_transferencias_tr_estado_label, .css_inv_transferencias_tr_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_inv_transferencias_tr_estado_grid_line, .css_inv_transferencias_tr_estado_grid_line:hover {vertical-align: top;text-align: right;}

@@ -1,0 +1,62 @@
+.css_nd_numero_label, .css_nd_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_numero_grid_line, .css_nd_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_fecha_label, .css_nd_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_fecha_grid_line, .css_nd_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_est_codigo_label, .css_est_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_est_codigo_grid_line, .css_est_codigo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pen_serie_label, .css_pen_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pen_serie_grid_line, .css_pen_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_secuencial_label, .css_nd_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_secuencial_grid_line, .css_nd_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_secuencial_docmod_label, .css_nd_secuencial_docmod_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_secuencial_docmod_grid_line, .css_nd_secuencial_docmod_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_subtotal_label, .css_nd_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_grid_line, .css_nd_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_tot_ger, .css_nd_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_valor_iva_label, .css_nd_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_valor_iva_grid_line, .css_nd_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_valor_iva_tot_ger, .css_nd_valor_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_total_label, .css_nd_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_total_grid_line, .css_nd_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_total_tot_ger, .css_nd_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_cl_direccion_label, .css_cl_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_direccion_grid_line, .css_cl_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_telefono_label, .css_cl_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_telefono_grid_line, .css_cl_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_email_label, .css_cl_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_email_grid_line, .css_cl_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_subtotal_iva_label, .css_nd_subtotal_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_iva_grid_line, .css_nd_subtotal_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_iva_tot_ger, .css_nd_subtotal_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_subtotal_cero_label, .css_nd_subtotal_cero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_cero_grid_line, .css_nd_subtotal_cero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_cero_tot_ger, .css_nd_subtotal_cero_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_subtotal_no_objeto_label, .css_nd_subtotal_no_objeto_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_no_objeto_grid_line, .css_nd_subtotal_no_objeto_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_no_objeto_tot_ger, .css_nd_subtotal_no_objeto_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_subtotal_excento_label, .css_nd_subtotal_excento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_subtotal_excento_grid_line, .css_nd_subtotal_excento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_subtotal_excento_tot_ger, .css_nd_subtotal_excento_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_valor_ice_label, .css_nd_valor_ice_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_valor_ice_grid_line, .css_nd_valor_ice_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_valor_ice_tot_ger, .css_nd_valor_ice_tot_ger:hover {text-align: ;text-align: right;}
+.css_nd_subtotal_S_sub_tot, .css_nd_subtotal_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_subtotal_S_tot_ger, .css_nd_subtotal_S_tot_ger:hover {text-align: right;}
+.css_nd_valor_iva_S_sub_tot, .css_nd_valor_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_valor_iva_S_tot_ger, .css_nd_valor_iva_S_tot_ger:hover {text-align: right;}
+.css_nd_total_S_sub_tot, .css_nd_total_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_total_S_tot_ger, .css_nd_total_S_tot_ger:hover {text-align: right;}
+.css_nd_subtotal_iva_S_sub_tot, .css_nd_subtotal_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_subtotal_iva_S_tot_ger, .css_nd_subtotal_iva_S_tot_ger:hover {text-align: right;}
+.css_nd_subtotal_cero_S_sub_tot, .css_nd_subtotal_cero_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_subtotal_cero_S_tot_ger, .css_nd_subtotal_cero_S_tot_ger:hover {text-align: right;}
+.css_nd_subtotal_no_objeto_S_sub_tot, .css_nd_subtotal_no_objeto_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_subtotal_no_objeto_S_tot_ger, .css_nd_subtotal_no_objeto_S_tot_ger:hover {text-align: right;}
+.css_nd_subtotal_excento_S_sub_tot, .css_nd_subtotal_excento_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_subtotal_excento_S_tot_ger, .css_nd_subtotal_excento_S_tot_ger:hover {text-align: right;}
+.css_nd_valor_ice_S_sub_tot, .css_nd_valor_ice_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nd_valor_ice_S_tot_ger, .css_nd_valor_ice_S_tot_ger:hover {text-align: right;}

@@ -1,0 +1,63 @@
+.css_ret_establecimiento_label { }
+.css_ret_establecimiento_line {text-align:left;}
+.css_ret_establecimiento_obj {text-align:left;}
+.css_ret_punto_emision_label { }
+.css_ret_punto_emision_line {text-align:left;}
+.css_ret_punto_emision_obj {text-align:left;}
+.css_ret_secuencial_label { }
+.css_ret_secuencial_line {text-align:left;}
+.css_ret_secuencial_obj {text-align:left;}
+.css_ret_cliente_label { }
+.css_ret_cliente_line {text-align:left;}
+.css_ret_cliente_obj {text-align:left;}
+.css_ret_fecha_label { }
+.css_ret_fecha_line { }
+.css_ret_fecha_obj { }
+.css_ret_ambiente_label { }
+.css_ret_ambiente_line {text-align:left;}
+.css_ret_ambiente_obj {text-align:left;}
+.css_ret_tipo_libretin_label { }
+.css_ret_tipo_libretin_line { }
+.css_ret_tipo_libretin_obj { }
+.css_ret_libretin_label { }
+.css_ret_libretin_line {text-align:left;}
+.css_ret_libretin_obj {text-align:left;}
+.css_ret_mes_periodo_fiscal_label { }
+.css_ret_mes_periodo_fiscal_line { }
+.css_ret_mes_periodo_fiscal_obj { }
+.css_ret_anio_periodo_fiscal_label { }
+.css_ret_anio_periodo_fiscal_line {text-align:left;}
+.css_ret_anio_periodo_fiscal_obj {text-align:left;}
+.css_ret_comentario_label { }
+.css_ret_comentario_line { }
+.css_ret_comentario_obj {width:320px;}
+.css_ret_estado_sri_label { }
+.css_ret_estado_sri_line { }
+.css_ret_estado_sri_obj { }
+.css_titulo_label {font-size:14px;}
+.css_titulo_line {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;text-align:center;}
+.css_titulo_obj {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;border-width:2px;text-align:center;border-style:solid;}
+.css_ret_ruc_cliente_label { }
+.css_ret_ruc_cliente_line { }
+.css_ret_ruc_cliente_obj { }
+.css_ret_direccion_cliente_label { }
+.css_ret_direccion_cliente_line { }
+.css_ret_direccion_cliente_obj {width:320px;}
+.css_ret_email_cliente_label { }
+.css_ret_email_cliente_line { }
+.css_ret_email_cliente_obj {width:320px;}
+.css_secuencial_label { }
+.css_secuencial_line { }
+.css_secuencial_obj { }
+.css_tipo_libretin_label { }
+.css_tipo_libretin_line { }
+.css_tipo_libretin_obj { }
+.css_ambiente_label { }
+.css_ambiente_line { }
+.css_ambiente_obj { }
+.css_ret_nombre_cliente_label { }
+.css_ret_nombre_cliente_line { }
+.css_ret_nombre_cliente_obj {width:320px;}
+.css_sustentos_label { }
+.css_sustentos_line { }
+.css_sustentos_obj { }

@@ -1,0 +1,7 @@
+control_autoriza_documento_mob.php
+debi_doc_electronicos
+control_autoriza_documento_mob
+NAO
+contr
+control_autoriza_documento
+LigMd5

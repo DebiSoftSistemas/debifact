@@ -1,0 +1,20 @@
+.css_fc_tipo_comprobante_label, .css_fc_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fc_tipo_comprobante_grid_line, .css_fc_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sc_field_0_label, .css_sc_field_0_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_sc_field_0_grid_line, .css_sc_field_0_grid_line:hover {vertical-align: top;text-align: center;}
+.css_fc_fecha_label, .css_fc_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fc_fecha_grid_line, .css_fc_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fc_total_label, .css_fc_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fc_total_grid_line, .css_fc_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_liq_estado_sri_label, .css_liq_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_liq_estado_sri_grid_line, .css_liq_estado_sri_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fc_autorizacion_label, .css_fc_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fc_autorizacion_grid_line, .css_fc_autorizacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_liq_error_sri_label, .css_liq_error_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_liq_error_sri_grid_line, .css_liq_error_sri_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fc_id_label, .css_fc_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fc_id_grid_line, .css_fc_id_grid_line:hover {vertical-align: middle;text-align: right;}

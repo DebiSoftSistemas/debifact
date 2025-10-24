@@ -1,0 +1,20 @@
+.css_secuencial_label, .css_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_secuencial_grid_line, .css_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_prof_fecha_label, .css_prof_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_prof_fecha_grid_line, .css_prof_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_prof_transportista_label, .css_prof_transportista_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_prof_transportista_grid_line, .css_prof_transportista_grid_line:hover {vertical-align: top;text-align: left;}
+.css_prof_total_label, .css_prof_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_prof_total_grid_line, .css_prof_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_prof_estado_label, .css_prof_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_prof_estado_grid_line, .css_prof_estado_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_prof_finalizar_label, .css_prof_finalizar_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_prof_finalizar_grid_line, .css_prof_finalizar_grid_line:hover {text-align: left;}
+.css_prof_cliente_label, .css_prof_cliente_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_prof_cliente_grid_line, .css_prof_cliente_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_prof_descripcion_label, .css_prof_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_prof_descripcion_grid_line, .css_prof_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}

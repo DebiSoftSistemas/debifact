@@ -1,0 +1,10 @@
+.css_ciu_identificacion_label, .css_ciu_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ciu_identificacion_grid_line, .css_ciu_identificacion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ciu_nombre_label, .css_ciu_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ciu_nombre_grid_line, .css_ciu_nombre_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ciu_direccion_label, .css_ciu_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ciu_direccion_grid_line, .css_ciu_direccion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ciu_correo_label, .css_ciu_correo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ciu_correo_grid_line, .css_ciu_correo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ciu_telefono_label, .css_ciu_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ciu_telefono_grid_line, .css_ciu_telefono_grid_line:hover {vertical-align: middle;text-align: right;}

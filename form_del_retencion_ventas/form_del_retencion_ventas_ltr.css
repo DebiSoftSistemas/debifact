@@ -1,0 +1,60 @@
+.css_ret_numero_label { }
+.css_ret_numero_line {text-align:left;}
+.css_ret_numero_obj {text-align:left;}
+.css_ret_tipo_comprobante_label { }
+.css_ret_tipo_comprobante_line { }
+.css_ret_tipo_comprobante_obj { }
+.css_ret_empresa_label { }
+.css_ret_empresa_line { }
+.css_ret_empresa_obj { }
+.css_ret_cliente_label { }
+.css_ret_cliente_line {text-align:left;}
+.css_ret_cliente_obj {text-align:left;}
+.css_ret_serie_label { }
+.css_ret_serie_line { }
+.css_ret_serie_obj { }
+.css_ret_secuencial_label { }
+.css_ret_secuencial_line {text-align:left;}
+.css_ret_secuencial_obj {text-align:left;}
+.css_ret_fecha_label { }
+.css_ret_fecha_line { }
+.css_ret_fecha_obj { }
+.css_ret_autorizacion_label { }
+.css_ret_autorizacion_line { }
+.css_ret_autorizacion_obj { }
+.css_ret_mes_periodo_fiscal_label { }
+.css_ret_mes_periodo_fiscal_line { }
+.css_ret_mes_periodo_fiscal_obj { }
+.css_ret_anio_periodo_fiscal_label { }
+.css_ret_anio_periodo_fiscal_line {text-align:left;}
+.css_ret_anio_periodo_fiscal_obj {text-align:left;}
+.css_ret_comentario_label { }
+.css_ret_comentario_line { }
+.css_ret_comentario_obj { }
+.css_ret_estado_label { }
+.css_ret_estado_line { }
+.css_ret_estado_obj { }
+.css_ret_estado_sri_label { }
+.css_ret_estado_sri_line { }
+.css_ret_estado_sri_obj { }
+.css_ret_usuario_label { }
+.css_ret_usuario_line { }
+.css_ret_usuario_obj { }
+.css_detalles_label { }
+.css_detalles_line { }
+.css_detalles_obj { }
+.css_titulo_label {font-size:14px;text-align:center;}
+.css_titulo_line {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;text-align:center;}
+.css_titulo_obj {font-size:14px;color:#FFFFFF;background-color:#0033FF;border-width:2px;text-align:center;border-style:solid;}
+.css_ret_nombre_cliente_label { }
+.css_ret_nombre_cliente_line { }
+.css_ret_nombre_cliente_obj {width:320px;}
+.css_ret_ruc_cliente_label { }
+.css_ret_ruc_cliente_line { }
+.css_ret_ruc_cliente_obj {width:160px;}
+.css_ret_direccion_cliente_label { }
+.css_ret_direccion_cliente_line { }
+.css_ret_direccion_cliente_obj {width:320px;}
+.css_ret_correo_cliente_label { }
+.css_ret_correo_cliente_line { }
+.css_ret_correo_cliente_obj {width:320px;}

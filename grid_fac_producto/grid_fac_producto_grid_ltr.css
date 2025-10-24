@@ -1,0 +1,18 @@
+.css_pro_imagen_label, .css_pro_imagen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_imagen_grid_line, .css_pro_imagen_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pro_codigo_label, .css_pro_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_codigo_grid_line, .css_pro_codigo_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pro_codigo_secundario_label, .css_pro_codigo_secundario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_codigo_secundario_grid_line, .css_pro_codigo_secundario_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pro_nombre_label, .css_pro_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_nombre_grid_line, .css_pro_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pro_precio_uni_label, .css_pro_precio_uni_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pro_precio_uni_grid_line, .css_pro_precio_uni_grid_line:hover {vertical-align: top;text-align: right;}
+.css_pro_por_iva_label, .css_pro_por_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pro_por_iva_grid_line, .css_pro_por_iva_grid_line:hover {vertical-align: top;text-align: right;}
+.css_pro_por_ice_label, .css_pro_por_ice_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pro_por_ice_grid_line, .css_pro_por_ice_grid_line:hover {vertical-align: top;text-align: right;}
+.css_pro_estado_label, .css_pro_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_estado_grid_line, .css_pro_estado_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pro_filial_label, .css_pro_filial_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pro_filial_grid_line, .css_pro_filial_grid_line:hover {vertical-align: top;text-align: right;}

@@ -1,0 +1,60 @@
+.css_dp_id__label { }
+.css_dp_id__line {text-align:left;}
+.css_dp_id__obj {text-align:left;}
+.css_dp_proforma__label { }
+.css_dp_proforma__line {text-align:left;}
+.css_dp_proforma__obj {text-align:left;}
+.css_dp_producto__label { }
+.css_dp_producto__line { }
+.css_dp_producto__obj {width:120px;}
+.css_dp_descripcion__label { }
+.css_dp_descripcion__line { }
+.css_dp_descripcion__obj {width:80px;}
+.css_dp_cantidad__label { }
+.css_dp_cantidad__line {text-align:left;}
+.css_dp_cantidad__obj {text-align:right;width:70px;}
+.css_dp_precio_unitario__label { }
+.css_dp_precio_unitario__line {text-align:left;}
+.css_dp_precio_unitario__obj {text-align:right;width:70px;}
+.css_dp_descuento__label { }
+.css_dp_descuento__line {text-align:left;}
+.css_dp_descuento__obj {text-align:right;width:70px;}
+.css_dp_porcentaje_iva__label { }
+.css_dp_porcentaje_iva__line {text-align:left;}
+.css_dp_porcentaje_iva__obj {text-align:right;width:70px;}
+.css_dp_porcentaje_ice__label { }
+.css_dp_porcentaje_ice__line { }
+.css_dp_porcentaje_ice__obj {text-align:right;width:70px;}
+.css_dp_porcentaje_irbpnr__label { }
+.css_dp_porcentaje_irbpnr__line { }
+.css_dp_porcentaje_irbpnr__obj {text-align:right;width:70px;}
+.css_dp_cantidad_facturada__label { }
+.css_dp_cantidad_facturada__line {text-align:left;}
+.css_dp_cantidad_facturada__obj {text-align:right;width:70px;}
+.css_dp_cantidad_saldo__label { }
+.css_dp_cantidad_saldo__line {text-align:left;}
+.css_dp_cantidad_saldo__obj {text-align:left;width:70px;}
+.css_dp_subtotal_facturar__label { }
+.css_dp_subtotal_facturar__line {text-align:left;}
+.css_dp_subtotal_facturar__obj {text-align:right;width:70px;}
+.css_dp_base_ice_facturar__label { }
+.css_dp_base_ice_facturar__line {text-align:left;}
+.css_dp_base_ice_facturar__obj {text-align:left;}
+.css_dp_valor_ice_facturar__label { }
+.css_dp_valor_ice_facturar__line {text-align:left;}
+.css_dp_valor_ice_facturar__obj {text-align:left;}
+.css_dp_base_iva_facturar__label { }
+.css_dp_base_iva_facturar__line {text-align:left;}
+.css_dp_base_iva_facturar__obj {text-align:left;}
+.css_dp_valor_iva_facturar__label { }
+.css_dp_valor_iva_facturar__line {text-align:left;}
+.css_dp_valor_iva_facturar__obj {text-align:left;}
+.css_dp_base_irbpnr_facturar__label { }
+.css_dp_base_irbpnr_facturar__line {text-align:left;}
+.css_dp_base_irbpnr_facturar__obj {text-align:left;}
+.css_dp_valor_irbpnr_facturar__label { }
+.css_dp_valor_irbpnr_facturar__line {text-align:left;}
+.css_dp_valor_irbpnr_facturar__obj {text-align:left;}
+.css_dp_total_facturar__label { }
+.css_dp_total_facturar__line {text-align:left;}
+.css_dp_total_facturar__obj {text-align:left;}

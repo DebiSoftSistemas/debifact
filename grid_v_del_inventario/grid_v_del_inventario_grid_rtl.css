@@ -1,0 +1,17 @@
+.css_pro_descripcion_label, .css_pro_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_descripcion_grid_line, .css_pro_descripcion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cat_descripcion_label, .css_cat_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cat_descripcion_grid_line, .css_cat_descripcion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cantidad_label, .css_cantidad_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cantidad_grid_line, .css_cantidad_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_costo_promedio_label, .css_costo_promedio_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_costo_promedio_grid_line, .css_costo_promedio_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_total_label, .css_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_total_grid_line, .css_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_total_tot_ger, .css_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_kardex_label, .css_kardex_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_kardex_grid_line, .css_kardex_grid_line:hover {text-align: center;}
+.css_kar_empresa_label, .css_kar_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_kar_empresa_grid_line, .css_kar_empresa_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_total_S_sub_tot, .css_total_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_total_S_tot_ger, .css_total_S_tot_ger:hover {text-align: right;}

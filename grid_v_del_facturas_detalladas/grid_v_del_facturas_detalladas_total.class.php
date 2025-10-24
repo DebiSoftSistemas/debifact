@@ -1,0 +1,1349 @@
+<?php
+
+class grid_v_del_facturas_detalladas_total
+{
+   var $Db;
+   var $Erro;
+   var $Ini;
+   var $Lookup;
+
+   var $nm_data;
+
+   //----- 
+   function __construct($sc_page)
+   {
+      $this->sc_page = $sc_page;
+      $this->nm_data = new nm_data("es");
+      if (isset($_SESSION['sc_session'][$this->sc_page]['grid_v_del_facturas_detalladas']['campos_busca']) && !empty($_SESSION['sc_session'][$this->sc_page]['grid_v_del_facturas_detalladas']['campos_busca']))
+      { 
+          $Busca_temp = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['campos_busca'];
+          if ($_SESSION['scriptcase']['charset'] != "UTF-8")
+          {
+              $Busca_temp = NM_conv_charset($Busca_temp, $_SESSION['scriptcase']['charset'], "UTF-8");
+          }
+          $this->anio = (isset($Busca_temp['anio'])) ? $Busca_temp['anio'] : ""; 
+          $tmp_pos = (is_string($this->anio)) ? strpos($this->anio, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->anio))
+          {
+              $this->anio = substr($this->anio, 0, $tmp_pos);
+          }
+          $this->mes = (isset($Busca_temp['mes'])) ? $Busca_temp['mes'] : ""; 
+          $tmp_pos = (is_string($this->mes)) ? strpos($this->mes, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->mes))
+          {
+              $this->mes = substr($this->mes, 0, $tmp_pos);
+          }
+          $this->fac_fecha = (isset($Busca_temp['fac_fecha'])) ? $Busca_temp['fac_fecha'] : ""; 
+          $tmp_pos = (is_string($this->fac_fecha)) ? strpos($this->fac_fecha, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_fecha))
+          {
+              $this->fac_fecha = substr($this->fac_fecha, 0, $tmp_pos);
+          }
+          $fac_fecha_2 = (isset($Busca_temp['fac_fecha_input_2'])) ? $Busca_temp['fac_fecha_input_2'] : ""; 
+          $this->fac_fecha_2 = $fac_fecha_2; 
+          $this->fac_tipo_comprobante = (isset($Busca_temp['fac_tipo_comprobante'])) ? $Busca_temp['fac_tipo_comprobante'] : ""; 
+          $tmp_pos = (is_string($this->fac_tipo_comprobante)) ? strpos($this->fac_tipo_comprobante, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_tipo_comprobante))
+          {
+              $this->fac_tipo_comprobante = substr($this->fac_tipo_comprobante, 0, $tmp_pos);
+          }
+          $this->fac_serie = (isset($Busca_temp['fac_serie'])) ? $Busca_temp['fac_serie'] : ""; 
+          $tmp_pos = (is_string($this->fac_serie)) ? strpos($this->fac_serie, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_serie))
+          {
+              $this->fac_serie = substr($this->fac_serie, 0, $tmp_pos);
+          }
+          $this->cl_nombre = (isset($Busca_temp['cl_nombre'])) ? $Busca_temp['cl_nombre'] : ""; 
+          $tmp_pos = (is_string($this->cl_nombre)) ? strpos($this->cl_nombre, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->cl_nombre))
+          {
+              $this->cl_nombre = substr($this->cl_nombre, 0, $tmp_pos);
+          }
+          $this->cl_identificacion = (isset($Busca_temp['cl_identificacion'])) ? $Busca_temp['cl_identificacion'] : ""; 
+          $tmp_pos = (is_string($this->cl_identificacion)) ? strpos($this->cl_identificacion, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->cl_identificacion))
+          {
+              $this->cl_identificacion = substr($this->cl_identificacion, 0, $tmp_pos);
+          }
+          $this->pro_descripcion = (isset($Busca_temp['pro_descripcion'])) ? $Busca_temp['pro_descripcion'] : ""; 
+          $tmp_pos = (is_string($this->pro_descripcion)) ? strpos($this->pro_descripcion, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->pro_descripcion))
+          {
+              $this->pro_descripcion = substr($this->pro_descripcion, 0, $tmp_pos);
+          }
+          $this->fac_usuario = (isset($Busca_temp['fac_usuario'])) ? $Busca_temp['fac_usuario'] : ""; 
+          $tmp_pos = (is_string($this->fac_usuario)) ? strpos($this->fac_usuario, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_usuario))
+          {
+              $this->fac_usuario = substr($this->fac_usuario, 0, $tmp_pos);
+          }
+      } 
+   }
+
+
+   //----- 
+   function Calc_resumo_sc_free_group_by($destino_resumo, $res_export=false)
+   {
+      global $nm_lang;
+      $this->nm_data = new nm_data("es");
+      unset($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['sql_tot_res']);
+      if (isset($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['campos_busca']) && !empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['campos_busca']))
+      { 
+          $Busca_temp = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['campos_busca'];
+          if ($_SESSION['scriptcase']['charset'] != "UTF-8")
+          {
+              $Busca_temp = NM_conv_charset($Busca_temp, $_SESSION['scriptcase']['charset'], "UTF-8");
+          }
+          $this->anio = (isset($Busca_temp['anio'])) ? $Busca_temp['anio'] : ""; 
+          $tmp_pos = (is_string($this->anio)) ? strpos($this->anio, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->anio))
+          {
+              $this->anio = substr($this->anio, 0, $tmp_pos);
+          }
+          $this->mes = (isset($Busca_temp['mes'])) ? $Busca_temp['mes'] : ""; 
+          $tmp_pos = (is_string($this->mes)) ? strpos($this->mes, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->mes))
+          {
+              $this->mes = substr($this->mes, 0, $tmp_pos);
+          }
+          $this->fac_fecha = (isset($Busca_temp['fac_fecha'])) ? $Busca_temp['fac_fecha'] : ""; 
+          $tmp_pos = (is_string($this->fac_fecha)) ? strpos($this->fac_fecha, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_fecha))
+          {
+              $this->fac_fecha = substr($this->fac_fecha, 0, $tmp_pos);
+          }
+          $this->fac_fecha_2 = (isset($Busca_temp['fac_fecha_input_2'])) ? $Busca_temp['fac_fecha_input_2'] : ""; 
+          $this->fac_tipo_comprobante = (isset($Busca_temp['fac_tipo_comprobante'])) ? $Busca_temp['fac_tipo_comprobante'] : ""; 
+          $tmp_pos = (is_string($this->fac_tipo_comprobante)) ? strpos($this->fac_tipo_comprobante, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_tipo_comprobante))
+          {
+              $this->fac_tipo_comprobante = substr($this->fac_tipo_comprobante, 0, $tmp_pos);
+          }
+          $this->fac_serie = (isset($Busca_temp['fac_serie'])) ? $Busca_temp['fac_serie'] : ""; 
+          $tmp_pos = (is_string($this->fac_serie)) ? strpos($this->fac_serie, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_serie))
+          {
+              $this->fac_serie = substr($this->fac_serie, 0, $tmp_pos);
+          }
+          $this->cl_nombre = (isset($Busca_temp['cl_nombre'])) ? $Busca_temp['cl_nombre'] : ""; 
+          $tmp_pos = (is_string($this->cl_nombre)) ? strpos($this->cl_nombre, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->cl_nombre))
+          {
+              $this->cl_nombre = substr($this->cl_nombre, 0, $tmp_pos);
+          }
+          $this->cl_identificacion = (isset($Busca_temp['cl_identificacion'])) ? $Busca_temp['cl_identificacion'] : ""; 
+          $tmp_pos = (is_string($this->cl_identificacion)) ? strpos($this->cl_identificacion, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->cl_identificacion))
+          {
+              $this->cl_identificacion = substr($this->cl_identificacion, 0, $tmp_pos);
+          }
+          $this->pro_descripcion = (isset($Busca_temp['pro_descripcion'])) ? $Busca_temp['pro_descripcion'] : ""; 
+          $tmp_pos = (is_string($this->pro_descripcion)) ? strpos($this->pro_descripcion, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->pro_descripcion))
+          {
+              $this->pro_descripcion = substr($this->pro_descripcion, 0, $tmp_pos);
+          }
+          $this->fac_usuario = (isset($Busca_temp['fac_usuario'])) ? $Busca_temp['fac_usuario'] : ""; 
+          $tmp_pos = (is_string($this->fac_usuario)) ? strpos($this->fac_usuario, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->fac_usuario))
+          {
+              $this->fac_usuario = substr($this->fac_usuario, 0, $tmp_pos);
+          }
+      } 
+      $this->sc_where_atual  = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'];
+      $ind_qb                = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['SC_Ind_Groupby'];
+      $cmp_sql_def   = array('anio' => "anio",'mes' => "mes",'fac_fecha' => "fac_fecha",'fac_tipo_comprobante' => "fac_tipo_comprobante",'fac_serie' => "fac_serie",'fac_secuencial' => "fac_secuencial",'pro_descripcion' => "pro_descripcion",'fac_usuario' => "fac_usuario");
+      $cmps_quebra_atual = array();
+      foreach ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['SC_Gb_Free_cmp'] as $cmp => $resto)
+      {
+          $cmps_quebra_atual[] = $cmp;
+      }
+      $ult_cmp_quebra_atual = $cmps_quebra_atual[(count($cmps_quebra_atual) - 1)];
+      $arr_tots = "";
+      $join     = "";
+      $group    = "";
+      $i_group  = 1;
+      $cmps_gb  = "";
+      $cmps_gb1 = "";
+      $cmps_gb2 = "";
+      $cmps_gbS = array();
+      $ind_cmps = 8;
+      $ind_alias = "1";
+      $cmp_dim   = array();
+      $all_group = array();
+      foreach ($cmps_quebra_atual as $cmp_gb)
+      {
+          $Format_tst = $this->Ini->Get_Gb_date_format($ind_qb, $cmp_gb);
+          if (!empty($Format_tst))
+          {
+              $Str_arg_sum = $this->Ini->Get_date_arg_sum($cmp_gb, $Format_tst, $cmp_sql_def[$cmp_gb], false, true);
+              $Str_arg_sql = ($Str_arg_sum == " is null") ? $cmp_sql_def[$cmp_gb] : $this->Ini->Get_sql_date_groupby($cmp_sql_def[$cmp_gb], $Format_tst);
+          }
+          else
+          {
+              $Str_arg_sql = "";
+              $Str_arg_sum = $cmp_sql_def[$cmp_gb] . " *sc# SC." . $cmp_sql_def[$cmp_gb];
+          }
+          $cmp_dim[$cmp_gb] = $ind_cmps;
+          $temp = explode(" and ", $Str_arg_sum);
+          foreach ($temp as $cada_parte)
+          {
+              $temp1 = explode("*sc#", $cada_parte);
+              if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+              {
+                  $group .= (empty($group)) ? $i_group : "," . $i_group;
+              }
+              elseif (!in_array($Str_arg_sql . trim($temp1[0]), $all_group))
+              {
+                  $group .= (empty($group)) ? $Str_arg_sql . trim($temp1[0]) : "," . $Str_arg_sql . trim($temp1[0]);
+                  $all_group[] = $Str_arg_sql . trim($temp1[0]);
+              }
+              $cmps_gb1 .= (empty($cmps_gb1)) ? $Str_arg_sql . trim($temp1[0]) : "," . $Str_arg_sql . trim($temp1[0]);
+              $cmps_gb1 .= " as a_cmp_" .  $ind_alias;
+              $cmps_gb2 .= (empty($cmps_gb2)) ? $Str_arg_sql . trim($temp1[0]) : "," . $Str_arg_sql . trim($temp1[0]);
+              $cmps_gb2 .= " as b_cmp_" .  $ind_alias;
+              $join     .= empty($join) ? "" : " and ";
+              $join     .= " SC_sel1.a_cmp_" .  $ind_alias . " =  SC_sel2.b_cmp_" .  $ind_alias;
+              $ind_cmps++;
+              $ind_alias++;
+              $i_group++;
+          }
+      }
+      $ind_cmps  = 8;
+      $ind_alias = "1";
+      $cmp_dim   = array();
+      foreach ($cmps_quebra_atual as $cmp_gb)
+      {
+          $arr_tots .= "[\$" . $cmp_gb . "_orig]";
+          $Format_tst = $this->Ini->Get_Gb_date_format($ind_qb, $cmp_gb);
+          if (!empty($Format_tst))
+          {
+              $Str_arg_sum = $this->Ini->Get_date_arg_sum($cmp_gb, $Format_tst, $cmp_sql_def[$cmp_gb], false, true);
+              $Str_arg_sql = ($Str_arg_sum == " is null") ? $cmp_sql_def[$cmp_gb] : $this->Ini->Get_sql_date_groupby($cmp_sql_def[$cmp_gb], $Format_tst);
+          }
+          else
+          {
+              $Str_arg_sql = "";
+              $Str_arg_sum = $cmp_sql_def[$cmp_gb] . " *sc# SC." . $cmp_sql_def[$cmp_gb];
+          }
+          $cmp_dim[$cmp_gb] = $ind_cmps;
+          $temp = explode(" and ", $Str_arg_sum);
+          foreach ($temp as $cada_parte)
+          {
+              $temp1 = explode("*sc#", $cada_parte);
+              $cmps_gb  .= (empty($cmps_gb)) ? "a_cmp_" .  $ind_alias : "," . "a_cmp_" .  $ind_alias;
+              $cmps_gbS['a_cmp_' . $ind_alias] = $Str_arg_sql . trim($temp1[0]);
+              $ind_cmps++;
+              $ind_alias++;
+          }
+          $this->Res_Totaliza_sc_free_group_by($ind_qb, $cmp_gb, $arr_tots, $group, $join, $cmps_gb, $cmps_gb1, $cmps_gb2, $cmps_gbS, $cmp_dim, $cmps_quebra_atual, $cmp_sql_def, $res_export);
+      }
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['arr_total'] = array();
+      foreach ($cmps_quebra_atual as $cmp_gb)
+      {
+          $Arr_tot_name = "array_total_" . $cmp_gb;
+          $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['arr_total'][$cmp_gb] = $this->$Arr_tot_name;
+      }
+   }
+
+   function Res_Totaliza_sc_free_group_by($ind_qb, $cmp_tot, $arr_tots, $group, $join, $cmps_quebras, $cmps_quebras1, $cmps_quebras2, $cmps_quebrasS, $Cmp_dim, $cmps_quebra_atual, $cmp_sql_def, $res_export)
+   {
+      $sc_having = ((isset($parms_sub_sel['having']))) ? "  having " . $parms_sub_sel['having'] : "";
+      $Tem_estat_manual = false;
+      $where_ok = $this->sc_where_atual;
+      $cmp_sql_tp_num = array('fac_numero' => 'N','fac_cliente' => 'N','df_cantidad' => 'N','df_precio_unitario' => 'N','df_descuento' => 'N','df_subtotal' => 'N','df_valor_ice' => 'N','df_valor_iva' => 'N','df_valor_irbpnr' => 'N','df_total' => 'N','df_base_iva' => 'N');
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      else 
+      { 
+         $cmd_simp = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr)#@#cmps_quebras#@# from " . $this->Ini->nm_tabela . " " . $where_ok;
+         $comando  = "select count(*), sum(SC_metric1), sum(SC_metric2), sum(SC_metric3), sum(SC_metric4), sum(SC_metric5), sum(SC_metric6), sum(SC_metric7)#@#cmps_quebras#@# from (";
+         $comando .= "select df_subtotal as SC_metric1,df_descuento as SC_metric2,df_base_iva as SC_metric3,df_valor_iva as SC_metric4,df_total as SC_metric5,df_valor_ice as SC_metric6,df_valor_irbpnr as SC_metric7, " . $cmps_quebras1 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . ") SC_sel1 INNER JOIN (";
+         $comando .= "select " . $cmps_quebras2 . " from " . $this->Ini->nm_tabela . " " .  $where_ok . " group by " . $group . $sc_having . ") SC_sel2 ";
+         $comando .= " ON " . $join;
+      } 
+      if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['sql_tot_res']))
+      {
+         $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['sql_tot_res'] = str_replace("#@#cmps_quebras#@#", "", $comando);
+      }
+      $comando  = str_replace("#@#cmps_quebras#@#", "," . $cmps_quebras, $comando);
+      $comando .= " group by " . $cmps_quebras . " order by " .  $cmps_quebras;
+      if (!isset($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['Res_search_metric_use']) || empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['Res_search_metric_use']))
+      {
+          $comando = $cmd_simp;
+          $cmps_S  = "";
+          foreach ($cmps_quebrasS as $alias => $sql)
+          {
+              $cmps_S .= empty($cmps_S) ? $sql : ", " . $sql;
+          }
+          $comando = str_replace("#@#cmps_quebras#@#", "," . $cmps_S, $comando);
+          $order_group = "";
+          foreach ($cmps_quebrasS as $alias => $cada_tst)
+          {
+              $cada_tst = trim($cada_tst);
+              $pos = strpos(" " . $order_group, " " . $cada_tst);
+              if ($pos === false)
+              {
+                  $order_group .= (!empty($order_group)) ? ", " . $cada_tst : $cada_tst;
+              }
+          }
+          $comando .= " group by " . $order_group . " order by " .  $order_group;
+      }
+      $comando  = $this->Ajust_statistic($comando);
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($comando))
+      {
+         $this->Erro->mensagem(__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit;
+      }
+      $format_dimensions = array();
+      $format_dimensions['anio']['reg'] = "S";
+      $format_dimensions['anio']['msk'] = "";
+      $format_dimensions['mes']['reg'] = "S";
+      $format_dimensions['mes']['msk'] = "";
+      $format_dimensions['fac_fecha']['reg'] = "S";
+      $format_dimensions['fac_fecha']['msk'] = "";
+      $format_dimensions['fac_tipo_comprobante']['reg'] = "S";
+      $format_dimensions['fac_tipo_comprobante']['msk'] = "";
+      $format_dimensions['fac_serie']['reg'] = "S";
+      $format_dimensions['fac_serie']['msk'] = "";
+      $format_dimensions['fac_secuencial']['reg'] = "S";
+      $format_dimensions['fac_secuencial']['msk'] = "";
+      $format_dimensions['pro_descripcion']['reg'] = "S";
+      $format_dimensions['pro_descripcion']['msk'] = "";
+      $format_dimensions['fac_usuario']['reg'] = "S";
+      $format_dimensions['fac_usuario']['msk'] = "";
+      while (!$rt->EOF)
+      {
+          $sql_where = "";
+          foreach ($Cmp_dim as $Cada_dim => $Ind_sql)
+          {
+              $prep_look  = $Cada_dim . "_SC_look";
+              $$prep_look = $rt->fields[$Ind_sql];
+              $SC_prep = $this->Ini->Get_format_dimension($Ind_sql, 'sc_free_group_by', $Cada_dim, $rt, $format_dimensions[$Cada_dim]['reg'], $format_dimensions[$Cada_dim]['msk']);
+              $SC_orig = $Cada_dim . "_orig";
+              $SC_graf = "val_grafico_" . $Cada_dim;
+              $$Cada_dim = $SC_prep['fmt'];
+              $$SC_orig = $SC_prep['orig'];
+              if ($Cada_dim == "anio") {
+              }
+              if ($Cada_dim == "mes") {
+                  $this->Lookup->lookup_sc_free_group_by_mes($$Cada_dim,  $mes);
+              }
+              if ($Cada_dim == "fac_tipo_comprobante") {
+                  $this->Lookup->lookup_sc_free_group_by_fac_tipo_comprobante($$Cada_dim,  $fac_tipo_comprobante);
+              }
+              if ($Cada_dim == "fac_serie") {
+              }
+              if ($Cada_dim == "fac_secuencial") {
+              }
+              if ($Cada_dim == "pro_descripcion") {
+              }
+              if ($Cada_dim == "fac_usuario") {
+                  $this->Lookup->lookup_sc_free_group_by_fac_usuario($$Cada_dim,  $fac_usuario);
+              }
+              if (null === $$Cada_dim)
+              {
+                  $$Cada_dim = '';
+              }
+              if (null === $$SC_orig)
+              {
+                  $$SC_orig = '__SCNULL__';
+              }
+              $$SC_graf = $$Cada_dim;
+              if ($Tem_estat_manual)
+              {
+                  $Format_tst = $this->Ini->Get_Gb_date_format($ind_qb, $Cada_dim);
+                  if (!empty($Format_tst))
+                  {
+                      $val_sql  = $rt->fields[$Ind_sql];
+                      if ($Format_tst == 'YYYYMMDDHHII')
+                      {
+                          $val_sql .= "-" . $rt->fields[$Ind_sql + 1] . "-" . $rt->fields[$Ind_sql + 2] . " " . $rt->fields[$Ind_sql + 3] . ":" . $rt->fields[$Ind_sql + 4];
+                      }
+                      if ($Format_tst == 'YYYYMMDDHH')
+                      {
+                          $val_sql .= "-" . $rt->fields[$Ind_sql + 1] . "-" . $rt->fields[$Ind_sql + 2] . " " . $rt->fields[$Ind_sql + 3];
+                      }
+                      if ($Format_tst == 'YYYYMMDD2')
+                      {
+                          $val_sql .= "-" . $rt->fields[$Ind_sql + 1] . "-" . $rt->fields[$Ind_sql + 2];
+                      }
+                      if ($Format_tst == 'YYYYMM')
+                      {
+                          $val_sql .= "-" . $rt->fields[$Ind_sql + 1];
+                      }
+                      if ($Format_tst == 'YYYYHH' || $Format_tst == 'YYYYDD' || $Format_tst == 'YYYYDAYNAME' || $Format_tst == 'YYYYWEEK' || $Format_tst == 'YYYYBIMONTHLY' || $Format_tst == 'YYYYQUARTER' || $Format_tst == 'YYYYFOURMONTHS' || $Format_tst == 'YYYYSEMIANNUAL')
+                      {
+                          $val_sql .= $rt->fields[$Ind_sql + 1];
+                      }
+                      if ($Format_tst == 'HHIISS')
+                      {
+                          $val_sql  = $rt->fields[$Ind_sql] . ":" . $rt->fields[$Ind_sql + 1] . ":" . $rt->fields[$Ind_sql + 2];
+                      }
+                      if ($Format_tst == 'HHII')
+                      {
+                          $val_sql  = $rt->fields[$Ind_sql] . ":" . $rt->fields[$Ind_sql + 1];
+                      }
+                      $Str_arg_sum = $this->Ini->Get_date_arg_sum($val_sql, $Format_tst, $cmp_sql_def[$Cada_dim], true);
+                      $Str_arg_sql = ($Str_arg_sum == " is null") ? $cmp_sql_def[$Cada_dim] : $this->Ini->Get_sql_date_groupby($cmp_sql_def[$Cada_dim], $Format_tst);
+                  }
+                  elseif (isset($cmp_sql_tp_num[$Cada_dim]))
+                  {
+                      $Str_arg_sql = $cmp_sql_def[$Cada_dim];
+                      $Str_arg_sum = " = " . $rt->fields[$Ind_sql];
+                  }
+                  else
+                  {
+                      $Str_arg_sql = $cmp_sql_def[$Cada_dim];
+                      $Str_arg_sum = " = " . $this->Db->qstr($rt->fields[$Ind_sql]);
+                  }
+                  $sql_where .= (!empty($sql_where)) ? " and " : "";
+                  $sql_where .= $Str_arg_sql . $Str_arg_sum;
+              }
+          }
+          if ($Tem_estat_manual)
+          {
+              $where_ok = (empty($this->sc_where_atual)) ? " where " . $sql_where : $this->sc_where_atual . " and " . $sql_where;
+              $vl_statistic = $this->Calc_statist_manual_sc_free_group_by($where_ok);
+              foreach ($vl_statistic as $ind => $val)
+              {
+                  $rt->fields[$ind] = $val;
+              }
+          }
+          $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+          $rt->fields[1] = (strpos(strtolower($rt->fields[1]), "e")) ? (float)$rt->fields[1] : $rt->fields[1]; 
+          $rt->fields[1] = (string)$rt->fields[1];
+          if ($rt->fields[1] == "") 
+          {
+              $rt->fields[1] = 0;
+          }
+          if (substr($rt->fields[1], 0, 1) == ".") 
+          {
+              $rt->fields[1] = "0" . $rt->fields[1];
+          }
+          if (substr($rt->fields[1], 0, 2) == "-.") 
+          {
+              $rt->fields[1] = "-0" . substr($rt->fields[1], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[1], 2);
+          $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+          $rt->fields[2] = (strpos(strtolower($rt->fields[2]), "e")) ? (float)$rt->fields[2] : $rt->fields[2]; 
+          $rt->fields[2] = (string)$rt->fields[2];
+          if ($rt->fields[2] == "") 
+          {
+              $rt->fields[2] = 0;
+          }
+          if (substr($rt->fields[2], 0, 1) == ".") 
+          {
+              $rt->fields[2] = "0" . $rt->fields[2];
+          }
+          if (substr($rt->fields[2], 0, 2) == "-.") 
+          {
+              $rt->fields[2] = "-0" . substr($rt->fields[2], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[2], 2);
+          $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+          $rt->fields[3] = (strpos(strtolower($rt->fields[3]), "e")) ? (float)$rt->fields[3] : $rt->fields[3]; 
+          $rt->fields[3] = (string)$rt->fields[3];
+          if ($rt->fields[3] == "") 
+          {
+              $rt->fields[3] = 0;
+          }
+          if (substr($rt->fields[3], 0, 1) == ".") 
+          {
+              $rt->fields[3] = "0" . $rt->fields[3];
+          }
+          if (substr($rt->fields[3], 0, 2) == "-.") 
+          {
+              $rt->fields[3] = "-0" . substr($rt->fields[3], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[3], 2);
+          $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+          $rt->fields[4] = (strpos(strtolower($rt->fields[4]), "e")) ? (float)$rt->fields[4] : $rt->fields[4]; 
+          $rt->fields[4] = (string)$rt->fields[4];
+          if ($rt->fields[4] == "") 
+          {
+              $rt->fields[4] = 0;
+          }
+          if (substr($rt->fields[4], 0, 1) == ".") 
+          {
+              $rt->fields[4] = "0" . $rt->fields[4];
+          }
+          if (substr($rt->fields[4], 0, 2) == "-.") 
+          {
+              $rt->fields[4] = "-0" . substr($rt->fields[4], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[4], 2);
+          $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+          $rt->fields[5] = (strpos(strtolower($rt->fields[5]), "e")) ? (float)$rt->fields[5] : $rt->fields[5]; 
+          $rt->fields[5] = (string)$rt->fields[5];
+          if ($rt->fields[5] == "") 
+          {
+              $rt->fields[5] = 0;
+          }
+          if (substr($rt->fields[5], 0, 1) == ".") 
+          {
+              $rt->fields[5] = "0" . $rt->fields[5];
+          }
+          if (substr($rt->fields[5], 0, 2) == "-.") 
+          {
+              $rt->fields[5] = "-0" . substr($rt->fields[5], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[5], 2);
+          $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+          $rt->fields[6] = (strpos(strtolower($rt->fields[6]), "e")) ? (float)$rt->fields[6] : $rt->fields[6]; 
+          $rt->fields[6] = (string)$rt->fields[6];
+          if ($rt->fields[6] == "") 
+          {
+              $rt->fields[6] = 0;
+          }
+          if (substr($rt->fields[6], 0, 1) == ".") 
+          {
+              $rt->fields[6] = "0" . $rt->fields[6];
+          }
+          if (substr($rt->fields[6], 0, 2) == "-.") 
+          {
+              $rt->fields[6] = "-0" . substr($rt->fields[6], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[6], 2);
+          $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+          $rt->fields[7] = (strpos(strtolower($rt->fields[7]), "e")) ? (float)$rt->fields[7] : $rt->fields[7]; 
+          $rt->fields[7] = (string)$rt->fields[7];
+          if ($rt->fields[7] == "") 
+          {
+              $rt->fields[7] = 0;
+          }
+          if (substr($rt->fields[7], 0, 1) == ".") 
+          {
+              $rt->fields[7] = "0" . $rt->fields[7];
+          }
+          if (substr($rt->fields[7], 0, 2) == "-.") 
+          {
+              $rt->fields[7] = "-0" . substr($rt->fields[7], 1);
+          }
+          nmgp_Trunc_Num($rt->fields[7], 2);
+          $str_tot = "array_total_" . $cmp_tot;
+          if (!isset($this->$str_tot))
+          {
+              $this->$str_tot = array();
+          }
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[0]";
+          eval ('$this->' . $str_tot . ' = ' . $rt->fields[0] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[1]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[1] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[2]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[2] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[3]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[3] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[5]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[4] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[7]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[5] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[4]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[6] . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[6]";
+          eval('$this->' . $str_tot . ' = ' . $rt->fields[7] . ';');
+          $str_grf = "val_grafico_" . $cmp_tot;
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[8]";
+          eval ('$this->' . $str_tot . ' = $' . $str_grf . ';');
+          $str_tot = "array_total_" . $cmp_tot . $arr_tots . "[9]";
+          $str_org = $cmp_tot . "_orig";
+          eval ('$this->' . $str_tot . ' = $' . $str_org . ';');
+          eval ('ksort($this->array_total_' . $cmp_tot . $arr_tots . ');');
+          $rt->MoveNext();
+      }
+      $rt->Close();
+   }
+   //---- 
+   function quebra_geral_sc_free_group_by($res_limit=false, $res_export=false)
+   {
+      global $nada, $nm_lang , $fac_tipo_comprobante, $mes, $fac_usuario;
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['contr_total_geral'] == "OK") 
+      { 
+          return; 
+      } 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'] = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][0] = "" . $this->Ini->Nm_lang['lang_msgs_totl'] . ""; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $rt->fields[1] = (string)$rt->fields[1]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][2] = $rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $rt->fields[2] = (string)$rt->fields[2]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][3] = $rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $rt->fields[3] = (string)$rt->fields[3]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][4] = $rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $rt->fields[4] = (string)$rt->fields[4]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][5] = $rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $rt->fields[5] = (string)$rt->fields[5]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][6] = $rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $rt->fields[6] = (string)$rt->fields[6]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][7] = $rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $rt->fields[7] = (string)$rt->fields[7]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['tot_geral'][8] = $rt->fields[7]; 
+      $rt->Close(); 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['contr_total_geral'] = "OK";
+   } 
+
+   //-----  anio
+   function quebra_anio_sc_free_group_by($anio, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_anio = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_anio[0] = NM_encode_input(sc_strip_script($anio));
+      }
+      else {
+          $tot_anio[0] = sc_strip_script($anio) ; 
+      }
+      $tot_anio[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_anio[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_anio[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_anio[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_anio[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_anio[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_anio[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_anio[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_anio;
+   } 
+
+   //-----  mes
+   function quebra_mes_sc_free_group_by($mes, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_mes = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_mes[0] = NM_encode_input(sc_strip_script($mes));
+      }
+      else {
+          $tot_mes[0] = sc_strip_script($mes) ; 
+      }
+      $tot_mes[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_mes[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_mes[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_mes[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_mes[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_mes[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_mes[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_mes[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_mes;
+   } 
+
+   //-----  fac_fecha
+   function quebra_fac_fecha_sc_free_group_by($fac_fecha, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_fac_fecha = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      $tot_fac_fecha[0] = NM_encode_input(sc_strip_script($fac_fecha)) ; 
+      $tot_fac_fecha[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_fac_fecha[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_fac_fecha[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_fac_fecha[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_fac_fecha[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_fac_fecha[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_fac_fecha[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_fac_fecha[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_fac_fecha;
+   } 
+
+   //-----  fac_tipo_comprobante
+   function quebra_fac_tipo_comprobante_sc_free_group_by($fac_tipo_comprobante, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_fac_tipo_comprobante = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_fac_tipo_comprobante[0] = NM_encode_input(sc_strip_script($fac_tipo_comprobante));
+      }
+      else {
+          $tot_fac_tipo_comprobante[0] = sc_strip_script($fac_tipo_comprobante) ; 
+      }
+      $tot_fac_tipo_comprobante[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_fac_tipo_comprobante[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_fac_tipo_comprobante[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_fac_tipo_comprobante[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_fac_tipo_comprobante[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_fac_tipo_comprobante[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_fac_tipo_comprobante[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_fac_tipo_comprobante[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_fac_tipo_comprobante;
+   } 
+
+   //-----  fac_serie
+   function quebra_fac_serie_sc_free_group_by($fac_serie, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_fac_serie = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_fac_serie[0] = NM_encode_input(sc_strip_script($fac_serie));
+      }
+      else {
+          $tot_fac_serie[0] = sc_strip_script($fac_serie) ; 
+      }
+      $tot_fac_serie[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_fac_serie[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_fac_serie[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_fac_serie[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_fac_serie[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_fac_serie[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_fac_serie[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_fac_serie[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_fac_serie;
+   } 
+
+   //-----  fac_secuencial
+   function quebra_fac_secuencial_sc_free_group_by($fac_secuencial, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_fac_secuencial = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_fac_secuencial[0] = NM_encode_input(sc_strip_script($fac_secuencial));
+      }
+      else {
+          $tot_fac_secuencial[0] = sc_strip_script($fac_secuencial) ; 
+      }
+      $tot_fac_secuencial[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_fac_secuencial[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_fac_secuencial[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_fac_secuencial[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_fac_secuencial[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_fac_secuencial[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_fac_secuencial[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_fac_secuencial[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_fac_secuencial;
+   } 
+
+   //-----  pro_descripcion
+   function quebra_pro_descripcion_sc_free_group_by($pro_descripcion, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_pro_descripcion = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_pro_descripcion[0] = NM_encode_input(sc_strip_script($pro_descripcion));
+      }
+      else {
+          $tot_pro_descripcion[0] = sc_strip_script($pro_descripcion) ; 
+      }
+      $tot_pro_descripcion[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_pro_descripcion[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_pro_descripcion[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_pro_descripcion[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_pro_descripcion[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_pro_descripcion[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_pro_descripcion[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_pro_descripcion[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_pro_descripcion;
+   } 
+
+   //-----  fac_usuario
+   function quebra_fac_usuario_sc_free_group_by($fac_usuario, $Where_qb, $Cmp_Name) 
+   {
+      $Var_name_gb = "SC_tot_" . $Cmp_Name;
+      global $$Var_name_gb, $fac_tipo_comprobante, $mes, $fac_usuario;
+      $tot_fac_usuario = array() ;  
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      else 
+      { 
+          $nm_comando = "select count(*), sum(df_subtotal), sum(df_descuento), sum(df_base_iva), sum(df_valor_iva), sum(df_total), sum(df_valor_ice), sum(df_valor_irbpnr) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq']; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['where_pesq'])) 
+      { 
+         $nm_comando .= " where " . $Where_qb ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and " . $Where_qb ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_v_del_facturas_detalladas']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_fac_usuario[0] = NM_encode_input(sc_strip_script($fac_usuario));
+      }
+      else {
+          $tot_fac_usuario[0] = sc_strip_script($fac_usuario) ; 
+      }
+      $tot_fac_usuario[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_fac_usuario[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_fac_usuario[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_fac_usuario[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_fac_usuario[5] = (string)$rt->fields[4]; 
+      $rt->fields[5] = str_replace(",", ".", $rt->fields[5]);
+      $tot_fac_usuario[6] = (string)$rt->fields[5]; 
+      $rt->fields[6] = str_replace(",", ".", $rt->fields[6]);
+      $tot_fac_usuario[7] = (string)$rt->fields[6]; 
+      $rt->fields[7] = str_replace(",", ".", $rt->fields[7]);
+      $tot_fac_usuario[8] = (string)$rt->fields[7]; 
+      $rt->Close(); 
+      $$Var_name_gb = $tot_fac_usuario;
+   } 
+
+   function Ajust_statistic($comando)
+   {
+      if ((isset($this->Ini->nm_bases_vfp) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_vfp)) || (isset($this->Ini->nm_bases_odbc) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_odbc)))
+      {
+          $comando = str_replace(array('count(distinct ','varp(','stdevp(','variance(','stddev('), array('sum(','sum(','sum(','sum(','sum('), $comando);
+      }
+      if ($this->Ini->nm_tp_variance == "P")
+      {
+          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+          { 
+              $comando = str_replace(array('count(distinct ','varp(','stdevp('), array('count(','var(','stdev('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sqlite) && $this->Ini->sqlite_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase) && $this->Ini->Ibase_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_postgres))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_pop(','stddev_pop('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
+          {
+                  $comando = str_replace(array('variance(','stddev('), array('var_pop(','stddev_pop('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_pop(','stddev_pop('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_pop(','stddev_pop('), $comando);
+          }
+      }
+      if ($this->Ini->nm_tp_variance == "A")
+      {
+          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+          { 
+              $comando = str_replace(array('count(distinct ','varp(','stdevp('), array('count(','var(','stdev('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sqlite) && $this->Ini->sqlite_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_postgres))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase) && $this->Ini->Ibase_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_ibase))
+          {
+                  $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_oracle))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mssql))
+          { 
+              $comando = str_replace(array('varp(','stdevp('), array('var(','stdev('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_informix))
+          {
+              $comando = str_replace('stddev(', 'stdev(', $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_db2))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('variance_samp(','stddev_samp('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sybase))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+      }
+      return $comando;
+   }
+
+   function nm_conv_data_db($dt_in, $form_in, $form_out)
+   {
+       $dt_out = $dt_in;
+       if (strtoupper($form_in) == "DB_FORMAT") {
+           if ($dt_out == "null" || $dt_out == "")
+           {
+               $dt_out = "";
+               return $dt_out;
+           }
+           $form_in = "AAAA-MM-DD";
+       }
+       if (strtoupper($form_out) == "DB_FORMAT") {
+           if (empty($dt_out))
+           {
+               $dt_out = "null";
+               return $dt_out;
+           }
+           $form_out = "AAAA-MM-DD";
+       }
+       if (strtoupper($form_out) == "SC_FORMAT_REGION") {
+           $this->nm_data->SetaData($dt_in, strtoupper($form_in));
+           $prep_out  = (strpos(strtolower($form_in), "dd") !== false) ? "dd" : "";
+           $prep_out .= (strpos(strtolower($form_in), "mm") !== false) ? "mm" : "";
+           $prep_out .= (strpos(strtolower($form_in), "aa") !== false) ? "aaaa" : "";
+           $prep_out .= (strpos(strtolower($form_in), "yy") !== false) ? "aaaa" : "";
+           return $this->nm_data->FormataSaida($this->nm_data->FormatRegion("DT", $prep_out));
+       }
+       else {
+           nm_conv_form_data($dt_out, $form_in, $form_out);
+           return $dt_out;
+       }
+   }
+   function nm_gera_mask(&$nm_campo, $nm_mask)
+   { 
+      $trab_campo = $nm_campo;
+      $trab_mask  = $nm_mask;
+      $tam_campo  = strlen($nm_campo);
+      $trab_saida = "";
+      $str_highlight_ini = "";
+      $str_highlight_fim = "";
+      if(substr($nm_campo, 0, 23) == '<div class="highlight">' && substr($nm_campo, -6) == '</div>')
+      {
+           $str_highlight_ini = substr($nm_campo, 0, 23);
+           $str_highlight_fim = substr($nm_campo, -6);
+
+           $trab_campo = substr($nm_campo, 23, -6);
+           $tam_campo  = strlen($trab_campo);
+      }      $mask_num = false;
+      for ($x=0; $x < strlen($trab_mask); $x++)
+      {
+          if (substr($trab_mask, $x, 1) == "#")
+          {
+              $mask_num = true;
+              break;
+          }
+      }
+      if ($mask_num )
+      {
+          $ver_duas = explode(";", $trab_mask);
+          if (isset($ver_duas[1]) && !empty($ver_duas[1]))
+          {
+              $cont1 = count(explode("#", $ver_duas[0])) - 1;
+              $cont2 = count(explode("#", $ver_duas[1])) - 1;
+              if ($tam_campo >= $cont2)
+              {
+                  $trab_mask = $ver_duas[1];
+              }
+              else
+              {
+                  $trab_mask = $ver_duas[0];
+              }
+          }
+          $tam_mask = strlen($trab_mask);
+          $xdados = 0;
+          for ($x=0; $x < $tam_mask; $x++)
+          {
+              if (substr($trab_mask, $x, 1) == "#" && $xdados < $tam_campo)
+              {
+                  $trab_saida .= substr($trab_campo, $xdados, 1);
+                  $xdados++;
+              }
+              elseif ($xdados < $tam_campo)
+              {
+                  $trab_saida .= substr($trab_mask, $x, 1);
+              }
+          }
+          if ($xdados < $tam_campo)
+          {
+              $trab_saida .= substr($trab_campo, $xdados);
+          }
+          $nm_campo = $str_highlight_ini . $trab_saida . $str_highlight_ini;
+          return;
+      }
+      for ($ix = strlen($trab_mask); $ix > 0; $ix--)
+      {
+           $char_mask = substr($trab_mask, $ix - 1, 1);
+           if ($char_mask != "x" && $char_mask != "z")
+           {
+               $trab_saida = $char_mask . $trab_saida;
+           }
+           else
+           {
+               if ($tam_campo != 0)
+               {
+                   $trab_saida = substr($trab_campo, $tam_campo - 1, 1) . $trab_saida;
+                   $tam_campo--;
+               }
+               else
+               {
+                   $trab_saida = "0" . $trab_saida;
+               }
+           }
+      }
+      if ($tam_campo != 0)
+      {
+          $trab_saida = substr($trab_campo, 0, $tam_campo) . $trab_saida;
+          $trab_mask  = str_repeat("z", $tam_campo) . $trab_mask;
+      }
+   
+      $iz = 0; 
+      for ($ix = 0; $ix < strlen($trab_mask); $ix++)
+      {
+           $char_mask = substr($trab_mask, $ix, 1);
+           if ($char_mask != "x" && $char_mask != "z")
+           {
+               if ($char_mask == "." || $char_mask == ",")
+               {
+                   $trab_saida = substr($trab_saida, 0, $iz) . substr($trab_saida, $iz + 1);
+               }
+               else
+               {
+                   $iz++;
+               }
+           }
+           elseif ($char_mask == "x" || substr($trab_saida, $iz, 1) != "0")
+           {
+               $ix = strlen($trab_mask) + 1;
+           }
+           else
+           {
+               $trab_saida = substr($trab_saida, 0, $iz) . substr($trab_saida, $iz + 1);
+           }
+      }
+      $nm_campo = $str_highlight_ini . $trab_saida . $str_highlight_ini;
+   } 
+}
+
+?>

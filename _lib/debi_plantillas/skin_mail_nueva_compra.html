@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .divPrincipal {
+      border-top: 20px solid #EB9B1A;
+      border-right: 20px solid #85C8CD;
+      border-bottom: 20px solid #EB9B1A;
+      border-left: 20px solid #85C8CD;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .divFondo {
+      width: 100%;
+      height: 100%;
+      background-image: url('imagenes/fondo.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .divDatos {
+      width: 100%;
+      height: auto;
+      color: black;
+    }
+
+    .divContacto {
+      width: 100%;
+      height: auto;
+      background-color: #2B99A0;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .pNegrita {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .pblanco {
+      color: aliceblue;
+      font-weight: bold;
+    }
+    
+    .pblue{
+      color: blue;
+    }
+
+    .pmismalinea {
+      border: 1px;
+      display: inline-block;
+      width: auto;
+      margin: 1%;
+      text-align: left;
+    }
+
+    .centered-element {
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-container img,
+    a {
+      padding: 2%;
+      width: 90%;
+      text-decoration: none;
+      color: white;
+    }
+
+    .divInformacion {
+      width: 100%;
+      height: auto;
+      background-color: #B2B2B2;
+      background-size: cover;
+      background-position: center;
+      padding: 5px;
+      text-align: justify;
+    }
+
+    .empresa {
+      width: 75%;
+      height: auto;
+    }
+
+    @media screen and (max-width: 500px) {
+      .divPrincipal {
+        padding: 5px;
+      }
+
+      .divFondo,
+      .divDatos,
+      .divContacto,
+      .divInformacion {
+        height: auto;
+      }
+
+      p,
+      .pNegrita,
+      .pblanco,
+      .pmismalinea {
+        font-size: 8px;
+      }
+
+      .image-container img,
+      a {
+        margin-right: 1%;
+        margin-left: 1%;
+      }
+    }
+  </style>
+  <title>Plantilla</title>
+</head>
+
+<body>
+  <div class="divPrincipal">
+    <div class="divFondo">
+      <div class="divDatos">
+        <img class="empresa" src='imagenes/debisoft.png' /><br />
+        <p class="pNegrita">$EMPRESA_CLIENTE</p>
+        
+        <p class="pNegrita pmismalinea">AVISO DE NUEVA COMPRA</p>
+        <br>
+        <p class="pNegrita pmismalinea">Fecha :</p>
+        <p class="pmismalinea pblue">$fecha</p>
+        <p>El sistema de mensajeria instantanea de <strong>$EMPRESA_CLIENTE</strong>, le informa que la Empresa: </p>
+        <p><strong>$empresa</strong> con <strong>RUC: $ruc_Empresa</strong>, ha realizada un(a) <strong>$tipo</strong> por<strong> $valor USD</strong>, en la  cuenta:<strong> $cuenta</strong>, con número de documento <strong>$documento,</strong> por la compra de libretines electrónicos.</p>
+      </div>
+      <div class="divContacto">
+        <p class="pblanco pmismalinea">¿Deseas facturar electrónicamente?</p>
+        <p class="pblanco pmismalinea">¿Deseas obtener tu firma electrónica?</p>
+        <div class="image-container">
+          <a href="https://debi.ec/debifact/" target="_blank">
+            <img class="responsive-image" src="imagenes/debifact logo blanco.png" width='200' height='100' alt="">
+          </a>
+          <a href="https://debi.ec/" target="_blank">
+            <img class="responsive-image" src="imagenes/Logo DEBIsoft.png" width='200' height='100' alt="">
+          </a>
+          <a href="https://anf.es/ec/autoridad-de-certificacion-electronica-ec/" target="_blank">
+            <img class="responsive-image" src="imagenes/ANF - copia.png" width='200' height='100' alt="">
+          </a>
+        </div>
+        <div class="image-container">
+          <a class="text-primary"
+            href="https://api.whatsapp.com/send/?phone=593992395327&amp;text=Hola%2C+me+gustar%C3%ADa+obtener+m%C3%A1s+informaci%C3%B3n+acerca+de+un+producto.&amp;app_absent=0"
+            target="_blank">+593 992 395 327</a>
+          <a class="text-primary" href="https://debi.ec/" target="_blank">www.debi.ec</a>
+          <a href="mailto:ventas@debi.ec">info@debi.ec</a>
+        </div>
+      </div>
+      <div class="divInformacion">
+        <p>
+          La información enviada desde este correo electrónico cumple con todas las normas legales establecidas en LA
+          LEY DE COMERCIO ELECTRÓNICO, FIRMAS ELECTRÓNICAS Y MENSAJES DE DATOS y su Reglamento General, vigente en el
+          Ecuador.
+        </p>
+        <p>Nota de descargo: La información contenida en este e-mail es confidencial y solo puede ser utilizada por el
+          individuo o la compañía a las cuales está dirigido.</p>
+        <p>Por favor no responda directamente a este correo</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

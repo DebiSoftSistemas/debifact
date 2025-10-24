@@ -1,0 +1,7 @@
+factura_rapida_mob.php
+debi_doc_electronicos
+factura_rapida_mob
+NAO
+contr
+factura_rapida
+LigMd5

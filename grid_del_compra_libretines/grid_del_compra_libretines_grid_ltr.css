@@ -1,0 +1,30 @@
+.css_cl_punto_emision_label, .css_cl_punto_emision_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_punto_emision_grid_line, .css_cl_punto_emision_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_producto_label, .css_cl_producto_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_producto_grid_line, .css_cl_producto_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_cantidad_label, .css_cl_cantidad_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_cantidad_grid_line, .css_cl_cantidad_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_valor_label, .css_cl_valor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_valor_grid_line, .css_cl_valor_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_valor_tot_ger, .css_cl_valor_tot_ger:hover {text-align: ;text-align: right;}
+.css_cl_iva_label, .css_cl_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_iva_grid_line, .css_cl_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_iva_tot_ger, .css_cl_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_cl_ice_label, .css_cl_ice_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_ice_grid_line, .css_cl_ice_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_ice_tot_ger, .css_cl_ice_tot_ger:hover {text-align: ;text-align: right;}
+.css_cl_total_label, .css_cl_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_total_grid_line, .css_cl_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_total_tot_ger, .css_cl_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_cl_eliminar_label, .css_cl_eliminar_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_cl_eliminar_grid_line, .css_cl_eliminar_grid_line:hover {text-align: left;}
+.css_cl_id_label, .css_cl_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_id_grid_line, .css_cl_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_empresa_label, .css_cl_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_empresa_grid_line, .css_cl_empresa_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_usuario_label, .css_cl_usuario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_usuario_grid_line, .css_cl_usuario_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_valor_S_tot_ger, .css_cl_valor_S_tot_ger:hover {text-align: right;}
+.css_cl_iva_S_tot_ger, .css_cl_iva_S_tot_ger:hover {text-align: right;}
+.css_cl_ice_S_tot_ger, .css_cl_ice_S_tot_ger:hover {text-align: right;}
+.css_cl_total_S_tot_ger, .css_cl_total_S_tot_ger:hover {text-align: right;}

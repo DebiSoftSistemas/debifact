@@ -1,0 +1,42 @@
+.css_fac_fecha_label, .css_fac_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_fecha_grid_line, .css_fac_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_mes_label, .css_mes_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_mes_grid_line, .css_mes_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_periodo_label, .css_periodo_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_periodo_grid_line, .css_periodo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_emp_ruc_label, .css_emp_ruc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_emp_ruc_grid_line, .css_emp_ruc_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_emp_razon_social_label, .css_emp_razon_social_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_emp_razon_social_grid_line, .css_emp_razon_social_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_serie_label, .css_fac_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_serie_grid_line, .css_fac_serie_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_numero_doc_label, .css_fac_numero_doc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_numero_doc_grid_line, .css_fac_numero_doc_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_base_iva_label, .css_fac_base_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_base_iva_grid_line, .css_fac_base_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_base_iva_tot_ger, .css_fac_base_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_iva_label, .css_fac_total_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_iva_grid_line, .css_fac_total_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_iva_tot_ger, .css_fac_total_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_tot_ger, .css_fac_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_com_ruc_label, .css_com_ruc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_com_ruc_grid_line, .css_com_ruc_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_com_razon_social_label, .css_com_razon_social_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_com_razon_social_grid_line, .css_com_razon_social_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_com_porcentaje_comision_label, .css_com_porcentaje_comision_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_com_porcentaje_comision_grid_line, .css_com_porcentaje_comision_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_valor_comision_label, .css_valor_comision_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_valor_comision_grid_line, .css_valor_comision_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_valor_comision_tot_ger, .css_valor_comision_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_primera_compra_label, .css_fac_primera_compra_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_primera_compra_grid_line, .css_fac_primera_compra_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_base_iva_S_sub_tot, .css_fac_base_iva_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_fac_base_iva_S_tot_ger, .css_fac_base_iva_S_tot_ger:hover {text-align: right;}
+.css_fac_total_iva_S_sub_tot, .css_fac_total_iva_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_fac_total_iva_S_tot_ger, .css_fac_total_iva_S_tot_ger:hover {text-align: right;}
+.css_fac_total_S_sub_tot, .css_fac_total_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_fac_total_S_tot_ger, .css_fac_total_S_tot_ger:hover {text-align: right;}
+.css_valor_comision_S_sub_tot, .css_valor_comision_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_valor_comision_S_tot_ger, .css_valor_comision_S_tot_ger:hover {text-align: right;}

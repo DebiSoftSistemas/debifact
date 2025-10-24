@@ -1,0 +1,20 @@
+.css_nd_fecha_label, .css_nd_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_fecha_grid_line, .css_nd_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_documentos_label, .css_documentos_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_documentos_grid_line, .css_documentos_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sustento_label, .css_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sustento_grid_line, .css_sustento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_total_label, .css_nd_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_total_grid_line, .css_nd_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_estado_sri_label, .css_nd_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_estado_sri_grid_line, .css_nd_estado_sri_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_numero_label, .css_nd_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_numero_grid_line, .css_nd_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nd_autorizacion_label, .css_nd_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nd_autorizacion_grid_line, .css_nd_autorizacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nd_iddocmod_label, .css_nd_iddocmod_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nd_iddocmod_grid_line, .css_nd_iddocmod_grid_line:hover {vertical-align: middle;text-align: right;}

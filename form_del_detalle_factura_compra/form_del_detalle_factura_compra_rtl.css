@@ -1,0 +1,39 @@
+.css_dfc_id__label { }
+.css_dfc_id__line {text-align:left;}
+.css_dfc_id__obj {text-align:left;}
+.css_dfc_factura__label { }
+.css_dfc_factura__line {text-align:left;}
+.css_dfc_factura__obj {text-align:left;}
+.css_dfc_empresa__label { }
+.css_dfc_empresa__line { }
+.css_dfc_empresa__obj { }
+.css_dfc_producto__label { }
+.css_dfc_producto__line { }
+.css_dfc_producto__obj {width:200px;}
+.css_dfc_descripcion__label { }
+.css_dfc_descripcion__line { }
+.css_dfc_descripcion__obj {width:80px;}
+.css_dfc_cantidad__label { }
+.css_dfc_cantidad__line {text-align:left;}
+.css_dfc_cantidad__obj {text-align:right;width:50px;}
+.css_dfc_precio_unitario__label { }
+.css_dfc_precio_unitario__line {text-align:left;}
+.css_dfc_precio_unitario__obj {text-align:right;width:70px;}
+.css_dfc_subtotal__label { }
+.css_dfc_subtotal__line {text-align:left;}
+.css_dfc_subtotal__obj {text-align:right;width:70px;}
+.css_dfc_descuento__label { }
+.css_dfc_descuento__line {text-align:left;}
+.css_dfc_descuento__obj {text-align:right;width:70px;}
+.css_dfc_base_iva__label { }
+.css_dfc_base_iva__line {text-align:left;}
+.css_dfc_base_iva__obj {text-align:right;width:70px;}
+.css_dfc_porcentaje_iva__label { }
+.css_dfc_porcentaje_iva__line {text-align:left;}
+.css_dfc_porcentaje_iva__obj {text-align:left;width:70px;}
+.css_dfc_valor_iva__label { }
+.css_dfc_valor_iva__line {text-align:left;}
+.css_dfc_valor_iva__obj {text-align:right;width:70px;}
+.css_dfc_total__label { }
+.css_dfc_total__line {text-align:left;}
+.css_dfc_total__obj {text-align:right;width:70px;}

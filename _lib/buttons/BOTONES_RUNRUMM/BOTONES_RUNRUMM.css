@@ -1,0 +1,53 @@
+.scButton_default { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-default .ui-datepicker-trigger { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_default:hover { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-default .ui-datepicker-trigger:hover { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_default:active { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-default .ui-datepicker-trigger:active { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_default.disabled { background-image:none; filter: alpha(opacity=40); opacity:0.4;  }
+.scButton_default.selected { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scButton_default:focus { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scButton_default_list tr td { background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:0px; margin:0px;  }
+.scButton_default_list tr td div a { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_default_list tr td div a:hover { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div:hover { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_default_list tr td div a:active { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div:active { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_default_list tr td div a.disabled { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div.disabled { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=45); opacity:0.45; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_default_list tr td div a.selected { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div.selected { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_default_list tr td div a:focus { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_default_list tr td div:focus { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-image .ui-datepicker-trigger { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_image:hover { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-image .ui-datepicker-trigger:hover { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_image:active { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.trigger-picker-image .ui-datepicker-trigger:active { background-image:none !important; filter: alpha(opacity=100); opacity:1;  }
+.scButton_image.disabled { background-image:none; filter: alpha(opacity=40); opacity:0.4;  }
+.scButton_image.selected { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scButton_image:focus { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scButton_image_list tr td { background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:0px; margin:0px;  }
+.scButton_image_list tr td div a { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image_list tr td div a:hover { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div:hover { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image_list tr td div a:active { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div:active { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image_list tr td div a.disabled { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div.disabled { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=45); opacity:0.45; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image_list tr td div a.selected { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div.selected { color:#3C4858; font-family:Arial, sans-serif; font-size:13px; text-decoration:none; background-color:#ffffff; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scButton_image_list tr td div a:focus { font-family:Arial, sans-serif;color:#3C4858;font-size:13px;font-weight:;text-shadow:;text-decoration:none;font-style:; }
+.scButton_image_list tr td div:focus { font-family:Arial, sans-serif; color:#3C4858; font-size:13px; text-decoration:none; background-color:#EFF2F7; background-image:none; filter: alpha(opacity=100); opacity:1; padding:6px 52px 6px 15px; cursor:pointer;  }
+.scAppCalendarPage div.fc button.fc-button-primary { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scAppCalendarPage div.fc button.fc-button-primary:not(:disabled).fc-button-active { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scAppCalendarPage div.fc button.fc-button-primary:disabled { background-image:none; filter: alpha(opacity=40); opacity:0.4;  }
+.scAppCalendarPage div.fc button.fc-button-primary:hover { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scAppCalendarPage div.fc button.fc-button-primary:not(:disabled):active { background-image:none; filter: alpha(opacity=100); opacity:1;  }
+.scLink_default { text-decoration: underline; font-family: Arial, sans-serif; font-size: 12px; color: #0000AA;  }
+.scLink_default:visited { text-decoration: underline; font-family: Arial, sans-serif; font-size: 12px; color: #0000AA;  }
+.scLink_default:active { text-decoration: underline; font-family: Arial, sans-serif; font-size: 12px; color: #0000AA;  }
+.scLink_default:hover { text-decoration: none; font-family: Arial, sans-serif; font-size: 12px; color: #0000AA;  }

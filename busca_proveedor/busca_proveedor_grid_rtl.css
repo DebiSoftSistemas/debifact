@@ -1,0 +1,18 @@
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_direccion_label, .css_pr_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_direccion_grid_line, .css_pr_direccion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_telefono_label, .css_pr_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_telefono_grid_line, .css_pr_telefono_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_email_label, .css_pr_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_email_grid_line, .css_pr_email_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_id_label, .css_pr_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_id_grid_line, .css_pr_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_empresa_label, .css_pr_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_empresa_grid_line, .css_pr_empresa_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_tipo_identificacion_label, .css_pr_tipo_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_tipo_identificacion_grid_line, .css_pr_tipo_identificacion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_pais_label, .css_pr_pais_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_pais_grid_line, .css_pr_pais_grid_line:hover {vertical-align: middle;text-align: right;}

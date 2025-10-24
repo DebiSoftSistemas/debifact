@@ -1,0 +1,93 @@
+.css_prof_numero_label { }
+.css_prof_numero_line {text-align:left;}
+.css_prof_numero_obj {text-align:left;}
+.css_prof_empresa_label { }
+.css_prof_empresa_line { }
+.css_prof_empresa_obj { }
+.css_prof_secuencial_label { }
+.css_prof_secuencial_line {text-align:left;}
+.css_prof_secuencial_obj {text-align:left;}
+.css_prof_fecha_label { }
+.css_prof_fecha_line { }
+.css_prof_fecha_obj { }
+.css_prof_cliente_label { }
+.css_prof_cliente_line {text-align:left;}
+.css_prof_cliente_obj {text-align:left;}
+.css_prof_descripcion_label { }
+.css_prof_descripcion_line { }
+.css_prof_descripcion_obj {width:320px;}
+.css_prof_aplica_propina_label { }
+.css_prof_aplica_propina_line { }
+.css_prof_aplica_propina_obj { }
+.css_prof_subtotal_facturar_label {text-align:left;}
+.css_prof_subtotal_facturar_line {text-align:right;}
+.css_prof_subtotal_facturar_obj {text-align:right;width:100px;}
+.css_prof_subtotal_iva_facturar_label {text-align:left;}
+.css_prof_subtotal_iva_facturar_line {text-align:right;}
+.css_prof_subtotal_iva_facturar_obj {text-align:right;width:100px;}
+.css_prof_subtotal_cero_facturar_label {text-align:left;}
+.css_prof_subtotal_cero_facturar_line {text-align:right;}
+.css_prof_subtotal_cero_facturar_obj {text-align:right;width:100px;}
+.css_prof_subtotal_no_objeto_facturar_label {text-align:left;}
+.css_prof_subtotal_no_objeto_facturar_line {text-align:right;}
+.css_prof_subtotal_no_objeto_facturar_obj {text-align:right;width:100px;}
+.css_prof_subtotal_excento_facturar_label {text-align:left;}
+.css_prof_subtotal_excento_facturar_line {text-align:right;}
+.css_prof_subtotal_excento_facturar_obj {text-align:right;width:100px;}
+.css_prof_total_descuento_facturar_label {text-align:left;}
+.css_prof_total_descuento_facturar_line {text-align:right;}
+.css_prof_total_descuento_facturar_obj {text-align:right;width:100px;}
+.css_prof_valor_ice_facturar_label {text-align:left;}
+.css_prof_valor_ice_facturar_line {text-align:right;}
+.css_prof_valor_ice_facturar_obj {text-align:right;width:100px;}
+.css_prof_valor_iva_facturar_label {text-align:left;}
+.css_prof_valor_iva_facturar_line {text-align:right;}
+.css_prof_valor_iva_facturar_obj {text-align:right;width:100px;}
+.css_prof_valor_irbpnr_facturar_label {text-align:left;}
+.css_prof_valor_irbpnr_facturar_line {text-align:right;}
+.css_prof_valor_irbpnr_facturar_obj {text-align:right;width:100px;}
+.css_prof_propina_facturar_label {text-align:left;}
+.css_prof_propina_facturar_line {text-align:right;}
+.css_prof_propina_facturar_obj {text-align:right;width:100px;}
+.css_prof_total_facturar_label {text-align:left;}
+.css_prof_total_facturar_line {text-align:right;}
+.css_prof_total_facturar_obj {text-align:right;width:100px;}
+.css_detalle_label { }
+.css_detalle_line { }
+.css_detalle_obj { }
+.css_proforma_label { }
+.css_proforma_line { }
+.css_proforma_obj { }
+.css_fac_serie_label { }
+.css_fac_serie_line { }
+.css_fac_serie_obj { }
+.css_fac_secuencial_label { }
+.css_fac_secuencial_line { }
+.css_fac_secuencial_obj {width:160px;}
+.css_fac_ruc_cliente_label { }
+.css_fac_ruc_cliente_line { }
+.css_fac_ruc_cliente_obj {width:160px;}
+.css_fac_nombre_cliente_label { }
+.css_fac_nombre_cliente_line { }
+.css_fac_nombre_cliente_obj {width:320px;}
+.css_fac_direccion_cliente_label { }
+.css_fac_direccion_cliente_line { }
+.css_fac_direccion_cliente_obj {width:320px;}
+.css_fac_email_cliente_label { }
+.css_fac_email_cliente_line { }
+.css_fac_email_cliente_obj {width:320px;}
+.css_titulo_label {font-size:14px;}
+.css_titulo_line {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;text-align:center;}
+.css_titulo_obj {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;border-width:2px;text-align:center;border-style:solid;}
+.css_fac_pago_label { }
+.css_fac_pago_line { }
+.css_fac_pago_obj {text-align:right;width:100px;}
+.css_fac_cambio_label { }
+.css_fac_cambio_line { }
+.css_fac_cambio_obj {text-align:right;width:100px;}
+.css_forma_pago_label { }
+.css_forma_pago_line { }
+.css_forma_pago_obj { }
+.css_fac_tipo_libretin_label { }
+.css_fac_tipo_libretin_line { }
+.css_fac_tipo_libretin_obj { }

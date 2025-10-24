@@ -1,0 +1,24 @@
+.css_fac_fecha_label, .css_fac_fecha_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_fac_fecha_grid_line, .css_fac_fecha_grid_line:hover {vertical-align: top;text-align: center;}
+.css_fac_secuencial_label, .css_fac_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_secuencial_grid_line, .css_fac_secuencial_grid_line:hover {vertical-align: top;text-align: left;}
+.css_fac_comentario_label, .css_fac_comentario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_comentario_grid_line, .css_fac_comentario_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_estado_sri_label, .css_fac_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_estado_sri_grid_line, .css_fac_estado_sri_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_numero_label, .css_fac_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_numero_grid_line, .css_fac_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_direccion_label, .css_cl_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_direccion_grid_line, .css_cl_direccion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cl_email_label, .css_cl_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_email_grid_line, .css_cl_email_grid_line:hover {vertical-align: top;text-align: left;}
+.css_fac_autorizacion_label, .css_fac_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_autorizacion_grid_line, .css_fac_autorizacion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_fac_error_sri_label, .css_fac_error_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_error_sri_grid_line, .css_fac_error_sri_grid_line:hover {vertical-align: top;text-align: left;}

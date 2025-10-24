@@ -1,0 +1,36 @@
+.css_pag_id_label { }
+.css_pag_id_line {text-align:left;}
+.css_pag_id_obj {text-align:left;width:150px;}
+.css_pag_empresa_label { }
+.css_pag_empresa_line { }
+.css_pag_empresa_obj {width:150px;}
+.css_pag_fecha_label { }
+.css_pag_fecha_line { }
+.css_pag_fecha_obj {width:150px;}
+.css_pag_metodo_pago_label { }
+.css_pag_metodo_pago_line {text-align:left;}
+.css_pag_metodo_pago_obj {text-align:left;width:170px;}
+.css_pag_monto_label { }
+.css_pag_monto_line {font-size:14px;font-weight:bold;text-align:left;}
+.css_pag_monto_obj {font-size:14px;font-weight:bold;text-align:left;width:150px;}
+.css_pag_documento_label { }
+.css_pag_documento_line { }
+.css_pag_documento_obj {width:150px;}
+.css_pag_estado_label { }
+.css_pag_estado_line { }
+.css_pag_estado_obj {width:150px;}
+.css_pag_usuario_paga_label { }
+.css_pag_usuario_paga_line { }
+.css_pag_usuario_paga_obj {width:150px;}
+.css_pag_cuenta_origen_label { }
+.css_pag_cuenta_origen_line { }
+.css_pag_cuenta_origen_obj {width:150px;}
+.css_pag_banco_origen_label { }
+.css_pag_banco_origen_line { }
+.css_pag_banco_origen_obj {width:150px;}
+.css_pag_cuenta_destino_label { }
+.css_pag_cuenta_destino_line {text-align:left;}
+.css_pag_cuenta_destino_obj {text-align:left;width:300px;}
+.css_pag_mensaje_label { }
+.css_pag_mensaje_line { }
+.css_pag_mensaje_obj { }

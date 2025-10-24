@@ -1,0 +1,26 @@
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_pais_label, .css_cl_pais_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_pais_grid_line, .css_cl_pais_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_provincia_label, .css_cl_provincia_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_provincia_grid_line, .css_cl_provincia_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_ciudad_label, .css_cl_ciudad_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cl_ciudad_grid_line, .css_cl_ciudad_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cl_direccion_label, .css_cl_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_direccion_grid_line, .css_cl_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_telefono_label, .css_cl_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_telefono_grid_line, .css_cl_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_celular_label, .css_cl_celular_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_celular_grid_line, .css_cl_celular_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_email_label, .css_cl_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_email_grid_line, .css_cl_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_btn_eliminar_label, .css_btn_eliminar_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_btn_eliminar_grid_line, .css_btn_eliminar_grid_line:hover {text-align: left;}
+.css_cgc_id_label, .css_cgc_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cgc_id_grid_line, .css_cgc_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cgc_grupo_label, .css_cgc_grupo_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cgc_grupo_grid_line, .css_cgc_grupo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_cgc_cliente_label, .css_cgc_cliente_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cgc_cliente_grid_line, .css_cgc_cliente_grid_line:hover {vertical-align: middle;text-align: right;}

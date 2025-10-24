@@ -1,0 +1,8 @@
+.css_uni_nombre_label, .css_uni_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_uni_nombre_grid_line, .css_uni_nombre_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_uni_abreviacion_label, .css_uni_abreviacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_uni_abreviacion_grid_line, .css_uni_abreviacion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_uni_tipo_label, .css_uni_tipo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_uni_tipo_grid_line, .css_uni_tipo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_uni_empresa_label, .css_uni_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_uni_empresa_grid_line, .css_uni_empresa_grid_line:hover {vertical-align: middle;text-align: right;}

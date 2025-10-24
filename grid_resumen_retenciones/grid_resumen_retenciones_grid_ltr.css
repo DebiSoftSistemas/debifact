@@ -1,0 +1,45 @@
+.css_ret_fecha_label, .css_ret_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_fecha_grid_line, .css_ret_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_serie_label, .css_ret_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_serie_grid_line, .css_ret_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_secuencial_label, .css_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_secuencial_grid_line, .css_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_mes_periodo_fiscal_label, .css_ret_mes_periodo_fiscal_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_mes_periodo_fiscal_grid_line, .css_ret_mes_periodo_fiscal_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_anio_periodo_fiscal_label, .css_ret_anio_periodo_fiscal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ret_anio_periodo_fiscal_grid_line, .css_ret_anio_periodo_fiscal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_dr_cod_doc_sustento_label, .css_dr_cod_doc_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dr_cod_doc_sustento_grid_line, .css_dr_cod_doc_sustento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_serie_doc_sustento_label, .css_serie_doc_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_serie_doc_sustento_grid_line, .css_serie_doc_sustento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pri_descripcion_label, .css_pri_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pri_descripcion_grid_line, .css_pri_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pri_porcentaje_label, .css_pri_porcentaje_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pri_porcentaje_grid_line, .css_pri_porcentaje_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_base_imponible_label, .css_dr_base_imponible_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_base_imponible_grid_line, .css_dr_base_imponible_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_valor_retenido_label, .css_dr_valor_retenido_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_valor_retenido_grid_line, .css_dr_valor_retenido_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_valor_retenido_tot_ger, .css_dr_valor_retenido_tot_ger:hover {text-align: ;text-align: right;}
+.css_imr_descripcion_label, .css_imr_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_imr_descripcion_grid_line, .css_imr_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_direccion_label, .css_pr_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_direccion_grid_line, .css_pr_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_email_label, .css_pr_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_email_grid_line, .css_pr_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_telefono_label, .css_pr_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_telefono_grid_line, .css_pr_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pri_codigo_label, .css_pri_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pri_codigo_grid_line, .css_pri_codigo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_usuario_label, .css_ret_usuario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_usuario_grid_line, .css_ret_usuario_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_error_sri_label, .css_ret_error_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_error_sri_grid_line, .css_ret_error_sri_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_ret_autorizacion_label, .css_ret_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_autorizacion_grid_line, .css_ret_autorizacion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_dr_valor_retenido_S_sub_tot, .css_dr_valor_retenido_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dr_valor_retenido_S_tot_ger, .css_dr_valor_retenido_S_tot_ger:hover {text-align: right;}

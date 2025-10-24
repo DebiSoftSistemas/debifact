@@ -1,0 +1,92 @@
+<style>	
+	.card {
+		border: 1px solid #D1DDE2;
+		background: white;
+		width: 15%;
+        min-width: 200px;
+		border-radius: 10px;
+		overflow: hidden;
+		float: left;
+		margin-right: 10px;
+        margin-left: 10px;
+		margin-bottom: 20px;
+		min-height: 350px;
+		font-family: "Open Sans";
+		font-size: 13px;
+	}
+    .thumb-img{
+        text-align: center;
+        margin-top: 20px;
+    }
+	.card a {
+	color: #3793D4;
+	text-decoration: none;
+	}
+  
+	div.card:hover {
+		text-decoration: underline;
+        background: #E2E2E2;
+	}
+	.card .card-block {
+		padding: 10px 15px;
+	}
+
+    .card img {
+      width: 250px;
+      height: 200px;
+    }
+
+    .card .card-block .card-title {
+      color: #3793D4;
+      font-size: 16px;
+      margin: 0;
+      min-height: 35px;
+    }
+    .card .card-block .card-text {
+      min-height: 100px;
+    }
+
+    .card .card-footer {
+      padding: 10px 15px;
+      background: #f2f2f2;
+      font-weight: bold;
+      color: #777;
+    }
+
+    .card .card-footer small {
+      opacity: .5;
+      display: block;
+      font-weight: normal;
+      color: black;
+    }
+		
+</style>
+
+<!-- BEGIN bl2 -->
+<div class="card">
+ <a href="#">
+    <div class="thumb-img"> 
+	    {fld_img}
+    </div>
+	
+	<div class="card-block">
+		<h4 class="card-title">
+			{fld_name}
+		</h4>
+		
+		<p class="card-text">
+			{fld_desc}
+		</p>
+		
+	</div>
+	
+	<div class="card-footer">
+		{fld_1} {fld_2}
+		
+		<small>
+			{fld_3} {fld_4}
+		</small>
+	</div>
+ </a>
+</div>
+<!-- END bl2 -->

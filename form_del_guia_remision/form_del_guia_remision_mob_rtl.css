@@ -1,0 +1,93 @@
+.css_gr_numero_label { }
+.css_gr_numero_line {text-align:left;}
+.css_gr_numero_obj {text-align:left;}
+.css_gr_tipo_comprobante_label { }
+.css_gr_tipo_comprobante_line { }
+.css_gr_tipo_comprobante_obj { }
+.css_gr_empresa_label { }
+.css_gr_empresa_line { }
+.css_gr_empresa_obj { }
+.css_gr_establecimiento_label { }
+.css_gr_establecimiento_line {text-align:left;}
+.css_gr_establecimiento_obj {text-align:left;}
+.css_gr_punto_emision_label { }
+.css_gr_punto_emision_line {text-align:left;}
+.css_gr_punto_emision_obj {text-align:left;}
+.css_gr_secuencial_label { }
+.css_gr_secuencial_line {text-align:left;}
+.css_gr_secuencial_obj {text-align:left;}
+.css_gr_transportista_label { }
+.css_gr_transportista_line {text-align:left;}
+.css_gr_transportista_obj {text-align:left;}
+.css_gr_fecha_label { }
+.css_gr_fecha_line { }
+.css_gr_fecha_obj { }
+.css_gr_ambiente_label { }
+.css_gr_ambiente_line {text-align:left;}
+.css_gr_ambiente_obj {text-align:left;}
+.css_gr_libretin_label { }
+.css_gr_libretin_line {text-align:left;}
+.css_gr_libretin_obj {text-align:left;}
+.css_gr_tipo_libretin_label { }
+.css_gr_tipo_libretin_line { }
+.css_gr_tipo_libretin_obj { }
+.css_gr_fecha_ini_transporte_label { }
+.css_gr_fecha_ini_transporte_line { }
+.css_gr_fecha_ini_transporte_obj {width:160px;}
+.css_gr_fecha_fin_transporte_label { }
+.css_gr_fecha_fin_transporte_line { }
+.css_gr_fecha_fin_transporte_obj {width:160px;}
+.css_gr_direccion_partida_label { }
+.css_gr_direccion_partida_line { }
+.css_gr_direccion_partida_obj {width:320px;}
+.css_gr_usuario_label { }
+.css_gr_usuario_line { }
+.css_gr_usuario_obj { }
+.css_gr_estado_label { }
+.css_gr_estado_line { }
+.css_gr_estado_obj { }
+.css_gr_estado_sri_label { }
+.css_gr_estado_sri_line { }
+.css_gr_estado_sri_obj { }
+.css_gr_error_sri_label { }
+.css_gr_error_sri_line { }
+.css_gr_error_sri_obj { }
+.css_gr_fecha_autorizacion_label { }
+.css_gr_fecha_autorizacion_line { }
+.css_gr_fecha_autorizacion_obj { }
+.css_gr_autorizacion_label { }
+.css_gr_autorizacion_line { }
+.css_gr_autorizacion_obj { }
+.css_gr_clave_label { }
+.css_gr_clave_line { }
+.css_gr_clave_obj { }
+.css_destinatario_label { }
+.css_destinatario_line { }
+.css_destinatario_obj { }
+.css_titulo_label {font-size:14px;font-weight:bold;}
+.css_titulo_line {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;text-align:left;}
+.css_titulo_obj {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;border-width:2px;text-align:left;border-style:solid;}
+.css_ruc_transportista_label { }
+.css_ruc_transportista_line { }
+.css_ruc_transportista_obj {width:160px;}
+.css_nombre_transportista_label { }
+.css_nombre_transportista_line { }
+.css_nombre_transportista_obj {width:320px;}
+.css_placa_transportista_label { }
+.css_placa_transportista_line { }
+.css_placa_transportista_obj {width:160px;}
+.css_establecimiento_label { }
+.css_establecimiento_line { }
+.css_establecimiento_obj { }
+.css_punto_emision_label { }
+.css_punto_emision_line { }
+.css_punto_emision_obj { }
+.css_tipo_libretin_label { }
+.css_tipo_libretin_line { }
+.css_tipo_libretin_obj { }
+.css_secuencial_label { }
+.css_secuencial_line { }
+.css_secuencial_obj { }
+.css_ambiente_label { }
+.css_ambiente_line { }
+.css_ambiente_obj { }

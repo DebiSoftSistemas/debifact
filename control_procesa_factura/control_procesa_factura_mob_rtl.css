@@ -1,0 +1,60 @@
+.css_fr_valor_label { }
+.css_fr_valor_line { }
+.css_fr_valor_obj {text-align:left;width:150px;}
+.css_fr_tipo_identificacion_label { }
+.css_fr_tipo_identificacion_line { }
+.css_fr_tipo_identificacion_obj {width:150px;}
+.css_fr_cedula_label { }
+.css_fr_cedula_line { }
+.css_fr_cedula_obj {width:150px;}
+.css_fr_nombre_label { }
+.css_fr_nombre_line { }
+.css_fr_nombre_obj {width:280px;}
+.css_fr_direccion_label { }
+.css_fr_direccion_line { }
+.css_fr_direccion_obj {width:280px;}
+.css_fr_correo_label { }
+.css_fr_correo_line { }
+.css_fr_correo_obj {width:280px;}
+.css_fr_forma_pago_label { }
+.css_fr_forma_pago_line { }
+.css_fr_forma_pago_obj {width:170px;}
+.css_fr_provincia_label { }
+.css_fr_provincia_line { }
+.css_fr_provincia_obj {width:170px;}
+.css_fr_canton_label { }
+.css_fr_canton_line { }
+.css_fr_canton_obj {width:170px;}
+.css_fr_telefono_label { }
+.css_fr_telefono_line { }
+.css_fr_telefono_obj {width:150px;}
+.css_fr_total_label {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_fr_total_line {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_fr_total_obj {font-size:14px;background-color:#00FF66;font-weight:bold;text-align:left;width:150px;border-style:solid;}
+.css_fr_comentario_label { }
+.css_fr_comentario_line { }
+.css_fr_comentario_obj {width:280px;}
+.css_fr_forma_pago2_label { }
+.css_fr_forma_pago2_line { }
+.css_fr_forma_pago2_obj {width:170px;}
+.css_fr_valor2_label { }
+.css_fr_valor2_line { }
+.css_fr_valor2_obj {text-align:left;width:150px;}
+.css_fr_forma_pago3_label { }
+.css_fr_forma_pago3_line { }
+.css_fr_forma_pago3_obj {width:170px;}
+.css_fr_valor3_label { }
+.css_fr_valor3_line { }
+.css_fr_valor3_obj {text-align:left;width:150px;}
+.css_total_pago_label {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_total_pago_line {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_total_pago_obj {font-size:14px;background-color:#00FF66;font-weight:bold;text-align:left;width:150px;}
+.css_fac_tipo_libretin_label { }
+.css_fac_tipo_libretin_line { }
+.css_fac_tipo_libretin_obj { }
+.css_fac_libretin_label { }
+.css_fac_libretin_line { }
+.css_fac_libretin_obj { }
+.css_fac_estado_sri_label { }
+.css_fac_estado_sri_line { }
+.css_fac_estado_sri_obj { }

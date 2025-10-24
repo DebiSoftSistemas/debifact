@@ -1,0 +1,51 @@
+.css_fr_servicio_label {font-size:14px;font-weight:bold;}
+.css_fr_servicio_line {font-size:14px;font-weight:bold;}
+.css_fr_servicio_obj {font-size:14px;font-weight:bold;text-align:right;width:300px;}
+.css_fr_valor_label { }
+.css_fr_valor_line { }
+.css_fr_valor_obj {text-align:right;width:150px;}
+.css_fr_valor_fijo_label { }
+.css_fr_valor_fijo_line { }
+.css_fr_valor_fijo_obj {width:150px;}
+.css_fr_tipo_identificacion_label { }
+.css_fr_tipo_identificacion_line { }
+.css_fr_tipo_identificacion_obj {width:150px;}
+.css_fr_cedula_label { }
+.css_fr_cedula_line { }
+.css_fr_cedula_obj {width:150px;}
+.css_fr_nombre_label { }
+.css_fr_nombre_line { }
+.css_fr_nombre_obj {width:300px;}
+.css_fr_direccion_label { }
+.css_fr_direccion_line { }
+.css_fr_direccion_obj {width:300px;}
+.css_fr_correo_label { }
+.css_fr_correo_line { }
+.css_fr_correo_obj {width:300px;}
+.css_fr_forma_pago_label { }
+.css_fr_forma_pago_line { }
+.css_fr_forma_pago_obj {width:320px;}
+.css_fr_idservicio_label { }
+.css_fr_idservicio_line { }
+.css_fr_idservicio_obj {text-align:right;width:150px;}
+.css_fr_provincia_label { }
+.css_fr_provincia_line { }
+.css_fr_provincia_obj {width:170px;}
+.css_fr_canton_label { }
+.css_fr_canton_line { }
+.css_fr_canton_obj {width:170px;}
+.css_fr_telefono_label { }
+.css_fr_telefono_line { }
+.css_fr_telefono_obj {width:150px;}
+.css_fr_valor_minimo_label { }
+.css_fr_valor_minimo_line { }
+.css_fr_valor_minimo_obj {text-align:right;}
+.css_fr_cantidad_label { }
+.css_fr_cantidad_line { }
+.css_fr_cantidad_obj {text-align:right;width:150px;}
+.css_fr_total_label {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_fr_total_line {font-size:14px;background-color:#00FF66;font-weight:bold;}
+.css_fr_total_obj {font-size:14px;background-color:#00FF66;font-weight:bold;text-align:right;width:150px;border-style:solid;}
+.css_fr_comentario_label { }
+.css_fr_comentario_line { }
+.css_fr_comentario_obj {width:300px;}

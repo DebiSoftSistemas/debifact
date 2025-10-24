@@ -1,0 +1,20 @@
+.css_dr_impuesto_label, .css_dr_impuesto_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dr_impuesto_grid_line, .css_dr_impuesto_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_codigo_retencion_label, .css_dr_codigo_retencion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dr_codigo_retencion_grid_line, .css_dr_codigo_retencion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_base_imponible_label, .css_dr_base_imponible_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_base_imponible_grid_line, .css_dr_base_imponible_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_porcentaje_retencion_label, .css_dr_porcentaje_retencion_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_porcentaje_retencion_grid_line, .css_dr_porcentaje_retencion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_valor_retenido_label, .css_dr_valor_retenido_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_valor_retenido_grid_line, .css_dr_valor_retenido_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_cod_doc_sustento_label, .css_dr_cod_doc_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dr_cod_doc_sustento_grid_line, .css_dr_cod_doc_sustento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_sc_field_0_label, .css_sc_field_0_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sc_field_0_grid_line, .css_sc_field_0_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_fecha_emision_doc_sustento_label, .css_dr_fecha_emision_doc_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dr_fecha_emision_doc_sustento_grid_line, .css_dr_fecha_emision_doc_sustento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_id_label, .css_dr_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_id_grid_line, .css_dr_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dr_retencion_label, .css_dr_retencion_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dr_retencion_grid_line, .css_dr_retencion_grid_line:hover {vertical-align: middle;text-align: right;}

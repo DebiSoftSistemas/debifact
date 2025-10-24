@@ -1,0 +1,111 @@
+.css_pro_codigo_label { }
+.css_pro_codigo_line { }
+.css_pro_codigo_obj {width:150px;}
+.css_pro_codigo_aux_label { }
+.css_pro_codigo_aux_line { }
+.css_pro_codigo_aux_obj {width:150px;}
+.css_pro_empresa_label { }
+.css_pro_empresa_line { }
+.css_pro_empresa_obj {width:150px;}
+.css_pro_descripcion_label { }
+.css_pro_descripcion_line {width:320px;}
+.css_pro_descripcion_obj {width:300px;}
+.css_pro_iva_label { }
+.css_pro_iva_line { }
+.css_pro_iva_obj { }
+.css_pro_por_iva_label { }
+.css_pro_por_iva_line { }
+.css_pro_por_iva_obj {width:170px;}
+.css_pro_ice_label { }
+.css_pro_ice_line { }
+.css_pro_ice_obj {width:160px;}
+.css_pro_por_ice_label { }
+.css_pro_por_ice_line { }
+.css_pro_por_ice_obj {width:170px;}
+.css_pro_irbpnr_label { }
+.css_pro_irbpnr_line { }
+.css_pro_irbpnr_obj {width:160px;}
+.css_pro_por_irbpnr_label { }
+.css_pro_por_irbpnr_line { }
+.css_pro_por_irbpnr_obj {width:170px;}
+.css_pro_precio_label { }
+.css_pro_precio_line {text-align:left;}
+.css_pro_precio_obj {text-align:right;width:100px;}
+.css_pro_estado_label { }
+.css_pro_estado_line { }
+.css_pro_estado_obj {width:170px;}
+.css_pro_familia_producto_label { }
+.css_pro_familia_producto_line { }
+.css_pro_familia_producto_obj {width:320px;}
+.css_pro_grupo_compras_label { }
+.css_pro_grupo_compras_line { }
+.css_pro_grupo_compras_obj {width:320px;}
+.css_pro_grupo_ventas_label { }
+.css_pro_grupo_ventas_line { }
+.css_pro_grupo_ventas_obj {width:320px;}
+.css_pro_categoria_producto_label { }
+.css_pro_categoria_producto_line { }
+.css_pro_categoria_producto_obj {width:320px;}
+.css_pro_cantidad_inventario_label { }
+.css_pro_cantidad_inventario_line { }
+.css_pro_cantidad_inventario_obj { }
+.css_pro_costo_promedio_label { }
+.css_pro_costo_promedio_line { }
+.css_pro_costo_promedio_obj { }
+.css_pro_total_inventario_label { }
+.css_pro_total_inventario_line { }
+.css_pro_total_inventario_obj { }
+.css_pro_imagen_label { }
+.css_pro_imagen_line { }
+.css_pro_imagen_obj { }
+.css_pro_compra_label { }
+.css_pro_compra_line { }
+.css_pro_compra_obj { }
+.css_pro_venta_label { }
+.css_pro_venta_line { }
+.css_pro_venta_obj { }
+.css_pro_stock_label { }
+.css_pro_stock_line { }
+.css_pro_stock_obj { }
+.css_pro_base_ice_label { }
+.css_pro_base_ice_line {text-align:left;}
+.css_pro_base_ice_obj {text-align:left;width:100px;}
+.css_pro_base_irbpnr_label { }
+.css_pro_base_irbpnr_line {text-align:left;}
+.css_pro_base_irbpnr_obj {text-align:left;width:100px;}
+.css_pro_aplica_subsidio_label { }
+.css_pro_aplica_subsidio_line { }
+.css_pro_aplica_subsidio_obj { }
+.css_pro_precio_sin_subsidio_label { }
+.css_pro_precio_sin_subsidio_line {text-align:left;}
+.css_pro_precio_sin_subsidio_obj {text-align:left;width:100px;}
+.css_pro_unidad_label { }
+.css_pro_unidad_line {text-align:left;}
+.css_pro_unidad_obj {text-align:left;}
+.css_pro_valor_subsidio_label { }
+.css_pro_valor_subsidio_line { }
+.css_pro_valor_subsidio_obj {text-align:right;width:100px;}
+.css_tarifa_ice_label { }
+.css_tarifa_ice_line { }
+.css_tarifa_ice_obj {text-align:right;width:100px;}
+.css_tarifa_irbpnr_label { }
+.css_tarifa_irbpnr_line { }
+.css_tarifa_irbpnr_obj {text-align:right;width:100px;}
+.css_base_iva_label { }
+.css_base_iva_line { }
+.css_base_iva_obj {text-align:right;width:100px;}
+.css_total_iva_label { }
+.css_total_iva_line { }
+.css_total_iva_obj {text-align:right;width:100px;}
+.css_total_irbpnr_label { }
+.css_total_irbpnr_line { }
+.css_total_irbpnr_obj {text-align:right;width:100px;}
+.css_total_ice_label { }
+.css_total_ice_line { }
+.css_total_ice_obj {text-align:right;width:100px;}
+.css_precio_con_impuesto_label { }
+.css_precio_con_impuesto_line { }
+.css_precio_con_impuesto_obj {text-align:right;width:160px;}
+.css_tarifa_iva_label { }
+.css_tarifa_iva_line { }
+.css_tarifa_iva_obj {text-align:right;width:100px;}

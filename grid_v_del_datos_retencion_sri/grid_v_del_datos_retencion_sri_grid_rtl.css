@@ -1,0 +1,32 @@
+.css_ret_empresa_label, .css_ret_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_empresa_grid_line, .css_ret_empresa_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_fecha_label, .css_ret_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_fecha_grid_line, .css_ret_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_est_codigo_label, .css_est_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_est_codigo_grid_line, .css_est_codigo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pen_serie_label, .css_pen_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pen_serie_grid_line, .css_pen_serie_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_secuencial_label, .css_ret_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_secuencial_grid_line, .css_ret_secuencial_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_estado_sri_label, .css_ret_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_estado_sri_grid_line, .css_ret_estado_sri_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pdf_label, .css_pdf_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_pdf_grid_line, .css_pdf_grid_line:hover {text-align: center;}
+.css_xml_label, .css_xml_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_xml_grid_line, .css_xml_grid_line:hover {text-align: center;}
+.css_autorizar_label, .css_autorizar_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_autorizar_grid_line, .css_autorizar_grid_line:hover {text-align: center;}
+.css_ret_numero_label, .css_ret_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ret_numero_grid_line, .css_ret_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_ambiente_label, .css_ret_ambiente_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ret_ambiente_grid_line, .css_ret_ambiente_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_ret_tipo_comprobante_label, .css_ret_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ret_tipo_comprobante_grid_line, .css_ret_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fecha_label, .css_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fecha_grid_line, .css_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_est_direccion_label, .css_est_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_est_direccion_grid_line, .css_est_direccion_grid_line:hover {vertical-align: middle;text-align: right;}

@@ -1,0 +1,42 @@
+.css_pro_codigo__label { }
+.css_pro_codigo__line { }
+.css_pro_codigo__obj { }
+.css_pro_codigo_aux__label { }
+.css_pro_codigo_aux__line { }
+.css_pro_codigo_aux__obj { }
+.css_pro_descripcion__label { }
+.css_pro_descripcion__line { }
+.css_pro_descripcion__obj { }
+.css_pro_por_iva__label { }
+.css_pro_por_iva__line {text-align:left;}
+.css_pro_por_iva__obj {text-align:left;width:120px;}
+.css_pro_por_ice__label { }
+.css_pro_por_ice__line {text-align:left;}
+.css_pro_por_ice__obj {text-align:left;width:120px;}
+.css_pro_por_irbpnr__label { }
+.css_pro_por_irbpnr__line { }
+.css_pro_por_irbpnr__obj {width:120px;}
+.css_pro_precio__label { }
+.css_pro_precio__line {text-align:left;}
+.css_pro_precio__obj {text-align:right;width:70px;}
+.css_pro_familia_producto__label { }
+.css_pro_familia_producto__line {text-align:left;}
+.css_pro_familia_producto__obj {text-align:left;width:120px;}
+.css_pro_grupo_compras__label { }
+.css_pro_grupo_compras__line {text-align:left;}
+.css_pro_grupo_compras__obj {text-align:left;width:120px;}
+.css_pro_grupo_ventas__label { }
+.css_pro_grupo_ventas__line {text-align:left;}
+.css_pro_grupo_ventas__obj {text-align:left;width:120px;}
+.css_pro_categoria_producto__label { }
+.css_pro_categoria_producto__line { }
+.css_pro_categoria_producto__obj {width:120px;}
+.css_pro_base_ice__label { }
+.css_pro_base_ice__line {text-align:left;}
+.css_pro_base_ice__obj {text-align:right;width:70px;}
+.css_pro_base_irbpnr__label { }
+.css_pro_base_irbpnr__line {text-align:left;}
+.css_pro_base_irbpnr__obj {text-align:right;width:70px;}
+.css_pro_total__label {text-align:right;}
+.css_pro_total__line {text-align:right;}
+.css_pro_total__obj {text-align:right;width:70px;}

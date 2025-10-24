@@ -1,0 +1,16 @@
+.css_fac_imagen_label, .css_fac_imagen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_imagen_grid_line, .css_fac_imagen_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_descripcion_label, .css_fac_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_descripcion_grid_line, .css_fac_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_estado_label, .css_fac_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_estado_grid_line, .css_fac_estado_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_id_label, .css_fac_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_id_grid_line, .css_fac_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_empresa_label, .css_fac_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_empresa_grid_line, .css_fac_empresa_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_valor_fijo_label, .css_fac_valor_fijo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_valor_fijo_grid_line, .css_fac_valor_fijo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_subtotal_iva_label, .css_fac_subtotal_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_iva_grid_line, .css_fac_subtotal_iva_grid_line:hover {vertical-align: middle;text-align: right;}

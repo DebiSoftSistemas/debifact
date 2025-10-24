@@ -1,0 +1,75 @@
+.css_sr_id_label { }
+.css_sr_id_line {text-align:left;}
+.css_sr_id_obj {text-align:left;}
+.css_sr_retencion_label { }
+.css_sr_retencion_line { }
+.css_sr_retencion_obj { }
+.css_sr_cod_sustento_label { }
+.css_sr_cod_sustento_line { }
+.css_sr_cod_sustento_obj {width:300px;}
+.css_sr_cod_docsustento_label { }
+.css_sr_cod_docsustento_line { }
+.css_sr_cod_docsustento_obj {width:300px;}
+.css_sr_serie_label { }
+.css_sr_serie_line { }
+.css_sr_serie_obj { }
+.css_sr_secuencial_label { }
+.css_sr_secuencial_line {text-align:left;}
+.css_sr_secuencial_obj {text-align:left;}
+.css_sr_fechaemision_label { }
+.css_sr_fechaemision_line { }
+.css_sr_fechaemision_obj { }
+.css_sr_fecha_registro_contable_label { }
+.css_sr_fecha_registro_contable_line { }
+.css_sr_fecha_registro_contable_obj { }
+.css_sr_autorizacion_label { }
+.css_sr_autorizacion_line { }
+.css_sr_autorizacion_obj {width:300px;}
+.css_sr_pago_loc_ext_label { }
+.css_sr_pago_loc_ext_line { }
+.css_sr_pago_loc_ext_obj {width:200px;}
+.css_sr_tipo_regimen_label { }
+.css_sr_tipo_regimen_line { }
+.css_sr_tipo_regimen_obj {width:200px;}
+.css_sr_pais_pago_label { }
+.css_sr_pais_pago_line { }
+.css_sr_pais_pago_obj { }
+.css_sr_aplica_doble_trib_label { }
+.css_sr_aplica_doble_trib_line { }
+.css_sr_aplica_doble_trib_obj {width:100px;}
+.css_sr_pago_sujeto_retencion_nc_label { }
+.css_sr_pago_sujeto_retencion_nc_line { }
+.css_sr_pago_sujeto_retencion_nc_obj {width:100px;}
+.css_sr_pago_reg_fis_label { }
+.css_sr_pago_reg_fis_line { }
+.css_sr_pago_reg_fis_obj {width:100px;}
+.css_sr_total_reembolsos_label {text-align:;}
+.css_sr_total_reembolsos_line {text-align:left;}
+.css_sr_total_reembolsos_obj {text-align:left;}
+.css_sr_total_baseimponible_reembolsos_label {text-align:;}
+.css_sr_total_baseimponible_reembolsos_line {text-align:left;}
+.css_sr_total_baseimponible_reembolsos_obj {text-align:left;}
+.css_sr_total_impuesto_reeemboso_label {text-align:;}
+.css_sr_total_impuesto_reeemboso_line {text-align:left;}
+.css_sr_total_impuesto_reeemboso_obj {text-align:left;}
+.css_sr_total_sin_impuestos_label { }
+.css_sr_total_sin_impuestos_line {text-align:left;}
+.css_sr_total_sin_impuestos_obj {text-align:left;}
+.css_sr_importe_total_label { }
+.css_sr_importe_total_line {text-align:left;}
+.css_sr_importe_total_obj {text-align:left;}
+.css_sr_pais_label { }
+.css_sr_pais_line { }
+.css_sr_pais_obj {width:200px;}
+.css_sr_paraiso_fiscal_label { }
+.css_sr_paraiso_fiscal_line { }
+.css_sr_paraiso_fiscal_obj {width:300px;}
+.css_impuestos_label { }
+.css_impuestos_line { }
+.css_impuestos_obj { }
+.css_retenciones_label { }
+.css_retenciones_line { }
+.css_retenciones_obj { }
+.css_pagos_label { }
+.css_pagos_line { }
+.css_pagos_obj { }

@@ -1,0 +1,33 @@
+.css_dp_id__label { }
+.css_dp_id__line {text-align:left;}
+.css_dp_id__obj {text-align:left;}
+.css_dp_producto__label { }
+.css_dp_producto__line { }
+.css_dp_producto__obj {width:200px;}
+.css_dp_descripcion__label { }
+.css_dp_descripcion__line { }
+.css_dp_descripcion__obj {width:80px;}
+.css_dp_cantidad__label { }
+.css_dp_cantidad__line {text-align:left;}
+.css_dp_cantidad__obj {text-align:right;width:70px;}
+.css_dp_precio_unitario__label { }
+.css_dp_precio_unitario__line {text-align:left;}
+.css_dp_precio_unitario__obj {text-align:right;width:70px;}
+.css_dp_subtotal__label { }
+.css_dp_subtotal__line {text-align:left;}
+.css_dp_subtotal__obj {text-align:right;width:70px;}
+.css_dp_descuento__label { }
+.css_dp_descuento__line {text-align:left;}
+.css_dp_descuento__obj {text-align:right;width:70px;}
+.css_dp_base_iva__label { }
+.css_dp_base_iva__line {text-align:right;width:70px;}
+.css_dp_base_iva__obj {text-align:right;width:70px;}
+.css_dp_porcentaje_iva__label { }
+.css_dp_porcentaje_iva__line {text-align:left;}
+.css_dp_porcentaje_iva__obj {text-align:right;width:70px;}
+.css_dp_valor_iva__label { }
+.css_dp_valor_iva__line { }
+.css_dp_valor_iva__obj {text-align:right;width:70px;}
+.css_dp_total__label { }
+.css_dp_total__line {text-align:left;}
+.css_dp_total__obj {text-align:right;width:70px;}

@@ -1,0 +1,16 @@
+.css_sr_fechaemision_label, .css_sr_fechaemision_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sr_fechaemision_grid_line, .css_sr_fechaemision_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sr_cod_sustento_label, .css_sr_cod_sustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sr_cod_sustento_grid_line, .css_sr_cod_sustento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sr_cod_docsustento_label, .css_sr_cod_docsustento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sr_cod_docsustento_grid_line, .css_sr_cod_docsustento_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sr_serie_label, .css_sr_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sr_serie_grid_line, .css_sr_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_sr_secuencial_label, .css_sr_secuencial_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sr_secuencial_grid_line, .css_sr_secuencial_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_sr_importe_total_label, .css_sr_importe_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sr_importe_total_grid_line, .css_sr_importe_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_sr_id_label, .css_sr_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sr_id_grid_line, .css_sr_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_sr_retencion_label, .css_sr_retencion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_sr_retencion_grid_line, .css_sr_retencion_grid_line:hover {vertical-align: middle;text-align: left;}

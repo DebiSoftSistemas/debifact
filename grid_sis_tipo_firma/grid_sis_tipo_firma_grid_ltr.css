@@ -1,0 +1,8 @@
+.css_tf_descripcion_label, .css_tf_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tf_descripcion_grid_line, .css_tf_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_tf_producto_label, .css_tf_producto_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tf_producto_grid_line, .css_tf_producto_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_tf_estado_label, .css_tf_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tf_estado_grid_line, .css_tf_estado_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_tf_id_label, .css_tf_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tf_id_grid_line, .css_tf_id_grid_line:hover {vertical-align: middle;text-align: right;}

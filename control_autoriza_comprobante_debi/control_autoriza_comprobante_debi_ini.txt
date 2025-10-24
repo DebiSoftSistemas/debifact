@@ -1,0 +1,7 @@
+index.php
+debi_doc_electronicos
+control_autoriza_comprobante_debi
+NAO
+blank
+control_autoriza_comprobante_debi
+LigMd5

@@ -1,0 +1,18 @@
+.css_pr_imagen_label, .css_pr_imagen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_imagen_grid_line, .css_pr_imagen_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_descripcion_label, .css_pr_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_descripcion_grid_line, .css_pr_descripcion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_total_label, .css_pr_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_total_grid_line, .css_pr_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_estado_label, .css_pr_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_estado_grid_line, .css_pr_estado_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_id_label, .css_pr_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_id_grid_line, .css_pr_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_filial_label, .css_pr_filial_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_filial_grid_line, .css_pr_filial_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_valor_label, .css_pr_valor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_valor_grid_line, .css_pr_valor_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pr_iva_label, .css_pr_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pr_iva_grid_line, .css_pr_iva_grid_line:hover {vertical-align: middle;text-align: right;}

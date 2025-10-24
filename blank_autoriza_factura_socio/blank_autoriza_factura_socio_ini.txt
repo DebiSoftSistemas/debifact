@@ -1,0 +1,7 @@
+index.php
+debi_doc_electronicos
+blank_autoriza_factura_socio
+NAO
+blank
+blank_autoriza_factura_socio
+LigMd5

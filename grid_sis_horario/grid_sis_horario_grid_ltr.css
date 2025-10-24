@@ -1,0 +1,10 @@
+.css_hor_nombre_label, .css_hor_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_hor_nombre_grid_line, .css_hor_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_hor_estado_label, .css_hor_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_hor_estado_grid_line, .css_hor_estado_grid_line:hover {vertical-align: top;text-align: left;}
+.css_hor_id_label, .css_hor_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hor_id_grid_line, .css_hor_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hor_fecha_crea_label, .css_hor_fecha_crea_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hor_fecha_crea_grid_line, .css_hor_fecha_crea_grid_line:hover {vertical-align: top;text-align: center;}
+.css_hor_usuario_crea_label, .css_hor_usuario_crea_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_hor_usuario_crea_grid_line, .css_hor_usuario_crea_grid_line:hover {vertical-align: top;text-align: left;}

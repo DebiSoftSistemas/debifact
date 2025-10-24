@@ -1,0 +1,16 @@
+.css_pw_id_label, .css_pw_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pw_id_grid_line, .css_pw_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pw_sku_label, .css_pw_sku_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_sku_grid_line, .css_pw_sku_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_producto_debi_label, .css_pw_producto_debi_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_producto_debi_grid_line, .css_pw_producto_debi_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_descripcion_label, .css_pw_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_descripcion_grid_line, .css_pw_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_descripcion_corta_label, .css_pw_descripcion_corta_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_descripcion_corta_grid_line, .css_pw_descripcion_corta_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_tipo_label, .css_pw_tipo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_tipo_grid_line, .css_pw_tipo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_estado_label, .css_pw_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_estado_grid_line, .css_pw_estado_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pw_empresa_label, .css_pw_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pw_empresa_grid_line, .css_pw_empresa_grid_line:hover {vertical-align: middle;text-align: left;}

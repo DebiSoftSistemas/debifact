@@ -1,0 +1,30 @@
+.css_fac_numero_label, .css_fac_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_numero_grid_line, .css_fac_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_serie_label, .css_fac_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_serie_grid_line, .css_fac_serie_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_numero_doc_label, .css_fac_numero_doc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_numero_doc_grid_line, .css_fac_numero_doc_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_cliente_label, .css_fac_cliente_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_cliente_grid_line, .css_fac_cliente_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_fecha_label, .css_fac_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_fecha_grid_line, .css_fac_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_label, .css_fac_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_grid_line, .css_fac_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_tot_ger, .css_fac_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_descuento_label, .css_fac_descuento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_descuento_grid_line, .css_fac_descuento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_descuento_tot_ger, .css_fac_descuento_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_iva_label, .css_fac_total_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_iva_grid_line, .css_fac_total_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_iva_tot_ger, .css_fac_total_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_tot_ger, .css_fac_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_estado_sri_label, .css_fac_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_estado_sri_grid_line, .css_fac_estado_sri_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_forma_pago_label, .css_fac_forma_pago_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_forma_pago_grid_line, .css_fac_forma_pago_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_S_tot_ger, .css_fac_subtotal_S_tot_ger:hover {text-align: right;}
+.css_fac_descuento_S_tot_ger, .css_fac_descuento_S_tot_ger:hover {text-align: right;}
+.css_fac_total_iva_S_tot_ger, .css_fac_total_iva_S_tot_ger:hover {text-align: right;}
+.css_fac_total_S_tot_ger, .css_fac_total_S_tot_ger:hover {text-align: right;}

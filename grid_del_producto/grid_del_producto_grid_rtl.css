@@ -1,0 +1,18 @@
+.css_pro_codigo_label, .css_pro_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_codigo_grid_line, .css_pro_codigo_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_descripcion_label, .css_pro_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_descripcion_grid_line, .css_pro_descripcion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_categoria_producto_label, .css_pro_categoria_producto_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_categoria_producto_grid_line, .css_pro_categoria_producto_grid_line:hover {vertical-align: top;text-align: right;}
+.css_pro_precio_label, .css_pro_precio_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pro_precio_grid_line, .css_pro_precio_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_por_iva_label, .css_pro_por_iva_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_por_iva_grid_line, .css_pro_por_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_estado_label, .css_pro_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_estado_grid_line, .css_pro_estado_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_codigo_aux_label, .css_pro_codigo_aux_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_codigo_aux_grid_line, .css_pro_codigo_aux_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_por_ice_label, .css_pro_por_ice_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_por_ice_grid_line, .css_pro_por_ice_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pro_por_irbpnr_label, .css_pro_por_irbpnr_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_por_irbpnr_grid_line, .css_pro_por_irbpnr_grid_line:hover {vertical-align: middle;text-align: right;}

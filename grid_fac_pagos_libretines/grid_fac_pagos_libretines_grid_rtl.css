@@ -1,0 +1,23 @@
+.css_pag_empresa_label, .css_pag_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pag_empresa_grid_line, .css_pag_empresa_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_fecha_label, .css_pag_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pag_fecha_grid_line, .css_pag_fecha_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_metodo_pago_label, .css_pag_metodo_pago_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pag_metodo_pago_grid_line, .css_pag_metodo_pago_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_banco_origen_label, .css_pag_banco_origen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pag_banco_origen_grid_line, .css_pag_banco_origen_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_cuenta_origen_label, .css_pag_cuenta_origen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pag_cuenta_origen_grid_line, .css_pag_cuenta_origen_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_monto_label, .css_pag_monto_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pag_monto_grid_line, .css_pag_monto_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_cuenta_destino_label, .css_pag_cuenta_destino_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pag_cuenta_destino_grid_line, .css_pag_cuenta_destino_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_documento_label, .css_pag_documento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pag_documento_grid_line, .css_pag_documento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_pag_verificar_label, .css_pag_verificar_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_pag_verificar_grid_line, .css_pag_verificar_grid_line:hover {text-align: right;}
+.css_pag_anular_label, .css_pag_anular_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_pag_anular_grid_line, .css_pag_anular_grid_line:hover {text-align: right;}
+.css_pag_id_label, .css_pag_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pag_id_grid_line, .css_pag_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_detalle_grid_line, .css_detalle_grid_line:hover {vertical-align: middle;text-align: center;}

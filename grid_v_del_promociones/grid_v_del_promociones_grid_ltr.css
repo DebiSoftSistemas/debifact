@@ -1,0 +1,8 @@
+.css_pr_imagen_label, .css_pr_imagen_label:hover {text-align:left;}
+.css_pr_imagen_grid_line, .css_pr_imagen_grid_line:hover {vertical-align: middle;}
+.css_pr_descripcion_label, .css_pr_descripcion_label:hover {text-align:left;}
+.css_pr_descripcion_grid_line, .css_pr_descripcion_grid_line:hover {vertical-align: middle;}
+.css_pr_total_label, .css_pr_total_label:hover {text-align:left;}
+.css_pr_total_grid_line, .css_pr_total_grid_line:hover {font-size:16px;font-weight:bold;vertical-align: top;}
+.css_btn_agregar_label, .css_btn_agregar_label:hover {text-align:left;}
+.css_btn_agregar_grid_line, .css_btn_agregar_grid_line:hover {vertical-align: middle;}

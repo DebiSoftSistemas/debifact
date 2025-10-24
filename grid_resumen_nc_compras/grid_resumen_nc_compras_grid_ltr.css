@@ -1,0 +1,44 @@
+.css_nc_fecha_label, .css_nc_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_fecha_grid_line, .css_nc_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_serie_label, .css_nc_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_serie_grid_line, .css_nc_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_secuencial_label, .css_nc_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_secuencial_grid_line, .css_nc_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_nombre_label, .css_pr_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_nombre_grid_line, .css_pr_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_identificacion_label, .css_pr_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_identificacion_grid_line, .css_pr_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_secuencial_docmod_label, .css_nc_secuencial_docmod_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_secuencial_docmod_grid_line, .css_nc_secuencial_docmod_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_subtotal_label, .css_nc_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_subtotal_grid_line, .css_nc_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_subtotal_tot_ger, .css_nc_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_nc_total_descuento_label, .css_nc_total_descuento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_total_descuento_grid_line, .css_nc_total_descuento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_total_descuento_tot_ger, .css_nc_total_descuento_tot_ger:hover {text-align: ;text-align: right;}
+.css_nc_valor_iva_label, .css_nc_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_valor_iva_grid_line, .css_nc_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_valor_iva_tot_ger, .css_nc_valor_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_nc_total_label, .css_nc_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_total_grid_line, .css_nc_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_total_tot_ger, .css_nc_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_nc_numero_label, .css_nc_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_numero_grid_line, .css_nc_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_tipo_comprobante_label, .css_nc_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_tipo_comprobante_grid_line, .css_nc_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_autorizacion_label, .css_nc_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_autorizacion_grid_line, .css_nc_autorizacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_direccion_label, .css_pr_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_direccion_grid_line, .css_pr_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_telefono_label, .css_pr_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_telefono_grid_line, .css_pr_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pr_email_label, .css_pr_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pr_email_grid_line, .css_pr_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_subtotal_S_sub_tot, .css_nc_subtotal_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nc_subtotal_S_tot_ger, .css_nc_subtotal_S_tot_ger:hover {text-align: right;}
+.css_nc_total_descuento_S_sub_tot, .css_nc_total_descuento_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nc_total_descuento_S_tot_ger, .css_nc_total_descuento_S_tot_ger:hover {text-align: right;}
+.css_nc_valor_iva_S_sub_tot, .css_nc_valor_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nc_valor_iva_S_tot_ger, .css_nc_valor_iva_S_tot_ger:hover {text-align: right;}
+.css_nc_total_S_sub_tot, .css_nc_total_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_nc_total_S_tot_ger, .css_nc_total_S_tot_ger:hover {text-align: right;}

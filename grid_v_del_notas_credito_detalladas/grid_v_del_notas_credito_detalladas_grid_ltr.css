@@ -1,0 +1,73 @@
+.css_nc_fecha_label, .css_nc_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_fecha_grid_line, .css_nc_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_serie_label, .css_nc_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_serie_grid_line, .css_nc_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_secuencial_label, .css_nc_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_secuencial_grid_line, .css_nc_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pro_descripcion_label, .css_pro_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_descripcion_grid_line, .css_pro_descripcion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_dnc_subtotal_label, .css_dnc_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_subtotal_grid_line, .css_dnc_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_subtotal_tot_ger, .css_dnc_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_dnc_descuento_label, .css_dnc_descuento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_descuento_grid_line, .css_dnc_descuento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_descuento_tot_ger, .css_dnc_descuento_tot_ger:hover {text-align: ;text-align: right;}
+.css_dnc_base_iva_label, .css_dnc_base_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_base_iva_grid_line, .css_dnc_base_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_base_iva_tot_ger, .css_dnc_base_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_dnc_valor_iva_label, .css_dnc_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_valor_iva_grid_line, .css_dnc_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_valor_iva_tot_ger, .css_dnc_valor_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_dnc_total_label, .css_dnc_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_total_grid_line, .css_dnc_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_total_tot_ger, .css_dnc_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_nc_numero_label, .css_nc_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_nc_numero_grid_line, .css_nc_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_nc_tipo_comprobante_label, .css_nc_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_tipo_comprobante_grid_line, .css_nc_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_empresa_label, .css_nc_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_empresa_grid_line, .css_nc_empresa_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_direccion_label, .css_cl_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_direccion_grid_line, .css_cl_direccion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_telefono_label, .css_cl_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_telefono_grid_line, .css_cl_telefono_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_celular_label, .css_cl_celular_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_celular_grid_line, .css_cl_celular_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_email_label, .css_cl_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_email_grid_line, .css_cl_email_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_nc_motivo_label, .css_nc_motivo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nc_motivo_grid_line, .css_nc_motivo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pro_codigo_label, .css_pro_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pro_codigo_grid_line, .css_pro_codigo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_dnc_cantidad_label, .css_dnc_cantidad_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_cantidad_grid_line, .css_dnc_cantidad_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_precio_unitario_label, .css_dnc_precio_unitario_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_precio_unitario_grid_line, .css_dnc_precio_unitario_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_valor_ice_label, .css_dnc_valor_ice_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_valor_ice_grid_line, .css_dnc_valor_ice_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_valor_ice_tot_ger, .css_dnc_valor_ice_tot_ger:hover {text-align: ;text-align: right;}
+.css_dnc_valor_irbpnr_label, .css_dnc_valor_irbpnr_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dnc_valor_irbpnr_grid_line, .css_dnc_valor_irbpnr_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_dnc_valor_irbpnr_tot_ger, .css_dnc_valor_irbpnr_tot_ger:hover {text-align: ;text-align: right;}
+.css_mes_label, .css_mes_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_mes_grid_line, .css_mes_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_anio_label, .css_anio_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_anio_grid_line, .css_anio_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_dnc_subtotal_S_sub_tot, .css_dnc_subtotal_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_subtotal_S_tot_ger, .css_dnc_subtotal_S_tot_ger:hover {text-align: right;}
+.css_dnc_descuento_S_sub_tot, .css_dnc_descuento_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_descuento_S_tot_ger, .css_dnc_descuento_S_tot_ger:hover {text-align: right;}
+.css_dnc_base_iva_S_sub_tot, .css_dnc_base_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_base_iva_S_tot_ger, .css_dnc_base_iva_S_tot_ger:hover {text-align: right;}
+.css_dnc_valor_iva_S_sub_tot, .css_dnc_valor_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_valor_iva_S_tot_ger, .css_dnc_valor_iva_S_tot_ger:hover {text-align: right;}
+.css_dnc_total_S_sub_tot, .css_dnc_total_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_total_S_tot_ger, .css_dnc_total_S_tot_ger:hover {text-align: right;}
+.css_dnc_valor_ice_S_sub_tot, .css_dnc_valor_ice_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_valor_ice_S_tot_ger, .css_dnc_valor_ice_S_tot_ger:hover {text-align: right;}
+.css_dnc_valor_irbpnr_S_sub_tot, .css_dnc_valor_irbpnr_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dnc_valor_irbpnr_S_tot_ger, .css_dnc_valor_irbpnr_S_tot_ger:hover {text-align: right;}

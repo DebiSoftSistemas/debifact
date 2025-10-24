@@ -1,0 +1,18 @@
+.css_fac_fecha_label, .css_fac_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_fecha_grid_line, .css_fac_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_establecimiento_label, .css_fac_establecimiento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_establecimiento_grid_line, .css_fac_establecimiento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_punto_emision_label, .css_fac_punto_emision_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_punto_emision_grid_line, .css_fac_punto_emision_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_comentario_label, .css_fac_comentario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_comentario_grid_line, .css_fac_comentario_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_estado_label, .css_fac_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_estado_grid_line, .css_fac_estado_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_numero_label, .css_fac_numero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_numero_grid_line, .css_fac_numero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_tipo_comprobante_label, .css_fac_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_tipo_comprobante_grid_line, .css_fac_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_empresa_label, .css_fac_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_empresa_grid_line, .css_fac_empresa_grid_line:hover {vertical-align: middle;text-align: left;}

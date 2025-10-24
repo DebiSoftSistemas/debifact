@@ -1,0 +1,60 @@
+.css_df_id__label { }
+.css_df_id__line {text-align:left;}
+.css_df_id__obj {text-align:left;}
+.css_df_factura__label { }
+.css_df_factura__line {text-align:left;}
+.css_df_factura__obj {text-align:left;}
+.css_df_empresa__label { }
+.css_df_empresa__line { }
+.css_df_empresa__obj { }
+.css_df_producto__label { }
+.css_df_producto__line { }
+.css_df_producto__obj { }
+.css_df_cantidad__label { }
+.css_df_cantidad__line {text-align:left;}
+.css_df_cantidad__obj {text-align:left;}
+.css_df_precio_unitario__label { }
+.css_df_precio_unitario__line {text-align:left;}
+.css_df_precio_unitario__obj {text-align:left;}
+.css_df_subtotal__label { }
+.css_df_subtotal__line {text-align:left;}
+.css_df_subtotal__obj {text-align:left;}
+.css_df_descuento__label { }
+.css_df_descuento__line {text-align:left;}
+.css_df_descuento__obj {text-align:left;}
+.css_df_base_iva__label { }
+.css_df_base_iva__line {text-align:left;}
+.css_df_base_iva__obj {text-align:left;}
+.css_df_porcentaje_iva__label { }
+.css_df_porcentaje_iva__line {text-align:left;}
+.css_df_porcentaje_iva__obj {text-align:left;}
+.css_df_valor_iva__label { }
+.css_df_valor_iva__line {text-align:left;}
+.css_df_valor_iva__obj {text-align:left;}
+.css_df_base_ice__label { }
+.css_df_base_ice__line {text-align:left;}
+.css_df_base_ice__obj {text-align:left;}
+.css_df_porcentaje_ice__label { }
+.css_df_porcentaje_ice__line { }
+.css_df_porcentaje_ice__obj { }
+.css_df_valor_ice__label { }
+.css_df_valor_ice__line {text-align:left;}
+.css_df_valor_ice__obj {text-align:left;}
+.css_df_base_irbpnr__label { }
+.css_df_base_irbpnr__line {text-align:left;}
+.css_df_base_irbpnr__obj {text-align:left;}
+.css_df_porcentaje_irbpnr__label { }
+.css_df_porcentaje_irbpnr__line { }
+.css_df_porcentaje_irbpnr__obj { }
+.css_df_valor_irbpnr__label { }
+.css_df_valor_irbpnr__line {text-align:left;}
+.css_df_valor_irbpnr__obj {text-align:left;}
+.css_df_total__label { }
+.css_df_total__line {text-align:left;}
+.css_df_total__obj {text-align:left;}
+.css_df_estado__label { }
+.css_df_estado__line { }
+.css_df_estado__obj { }
+.css_df_valor_fijo__label { }
+.css_df_valor_fijo__line { }
+.css_df_valor_fijo__obj { }

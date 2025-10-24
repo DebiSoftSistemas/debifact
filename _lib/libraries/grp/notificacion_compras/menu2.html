@@ -1,0 +1,19 @@
+
+<div class="col-md-1">
+	<div class="btn-group" role="group">
+		<button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			 <i class="fas fa-user-alt"></i><?php echo $_SESSION["Igtech_NombreUsuario"];?>			
+		</button>
+		<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			<a class="dropdown-item" href="../form_del_datos_usuario/form_del_datos_usuario.php" target="mnu_opciones_iframe">
+				  <i class="fas fa-address-card"></i><?php echo $this->Nm_lang['lang_datosusuario'];?>
+			</a>
+			<a class="dropdown-item" href="../form_del_cambio_clave/form_del_cambio_clave.php" target="mnu_opciones_iframe">
+				<i class="far fa-edit"></i><?php echo $this->Nm_lang['lang_cambio_contrasenia'];?>
+			</a>
+			<a class="dropdown-item" href="../form_salir/form_salir.php" target="mnu_opciones_iframe">
+				<i class="fas fa-sign-in-alt"></i><?php echo $this->Nm_lang['lang_salir'];?>
+			</a>	
+		</div>
+	</div>
+</div>	

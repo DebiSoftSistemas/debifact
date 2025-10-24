@@ -1,0 +1,60 @@
+.css_df_id_label { }
+.css_df_id_line {text-align:left;}
+.css_df_id_obj {text-align:left;}
+.css_df_factura_label { }
+.css_df_factura_line {text-align:left;}
+.css_df_factura_obj {text-align:left;}
+.css_df_producto_label { }
+.css_df_producto_line { }
+.css_df_producto_obj {width:320px;}
+.css_df_descripcion_label { }
+.css_df_descripcion_line { }
+.css_df_descripcion_obj {width:300px;}
+.css_df_cantidad_label { }
+.css_df_cantidad_line { }
+.css_df_cantidad_obj {text-align:right;width:150px;}
+.css_df_precio_unitario_label { }
+.css_df_precio_unitario_line {text-align:left;}
+.css_df_precio_unitario_obj {text-align:right;width:150px;}
+.css_df_subtotal_label { }
+.css_df_subtotal_line {text-align:left;}
+.css_df_subtotal_obj {text-align:right;width:150px;}
+.css_df_descuento_label { }
+.css_df_descuento_line {text-align:left;}
+.css_df_descuento_obj {text-align:right;width:150px;}
+.css_df_base_iva_label { }
+.css_df_base_iva_line {text-align:left;}
+.css_df_base_iva_obj {text-align:right;width:150px;}
+.css_df_porcentaje_iva_label { }
+.css_df_porcentaje_iva_line {text-align:left;}
+.css_df_porcentaje_iva_obj {text-align:right;width:150px;}
+.css_df_valor_iva_label { }
+.css_df_valor_iva_line {text-align:left;}
+.css_df_valor_iva_obj {text-align:right;width:150px;}
+.css_df_base_ice_label { }
+.css_df_base_ice_line {text-align:left;}
+.css_df_base_ice_obj {text-align:right;width:150px;}
+.css_df_porcentaje_ice_label { }
+.css_df_porcentaje_ice_line {text-align:left;}
+.css_df_porcentaje_ice_obj {text-align:right;width:150px;}
+.css_df_valor_ice_label { }
+.css_df_valor_ice_line {text-align:left;}
+.css_df_valor_ice_obj {text-align:right;width:150px;}
+.css_df_base_irbpnr_label { }
+.css_df_base_irbpnr_line {text-align:left;}
+.css_df_base_irbpnr_obj {text-align:right;width:150px;}
+.css_df_porcentaje_irbpnr_label { }
+.css_df_porcentaje_irbpnr_line {text-align:left;}
+.css_df_porcentaje_irbpnr_obj {text-align:right;width:150px;}
+.css_df_valor_irbpnr_label { }
+.css_df_valor_irbpnr_line {text-align:left;}
+.css_df_valor_irbpnr_obj {text-align:right;width:150px;}
+.css_df_total_label { }
+.css_df_total_line {text-align:left;}
+.css_df_total_obj {font-size:16px;font-weight:bold;text-align:right;width:150px;}
+.css_df_cantidad_nc_label { }
+.css_df_cantidad_nc_line { }
+.css_df_cantidad_nc_obj {width:150px;}
+.css_df_precio_sin_subsidio_label { }
+.css_df_precio_sin_subsidio_line {text-align:left;}
+.css_df_precio_sin_subsidio_obj {text-align:left;width:150px;}

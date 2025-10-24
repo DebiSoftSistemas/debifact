@@ -1,0 +1,8 @@
+.css_bo_establecimiento_label, .css_bo_establecimiento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bo_establecimiento_grid_line, .css_bo_establecimiento_grid_line:hover {vertical-align: top;text-align: left;}
+.css_bo_nombre_label, .css_bo_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bo_nombre_grid_line, .css_bo_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_bo_direccion_label, .css_bo_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bo_direccion_grid_line, .css_bo_direccion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_bo_responsable_label, .css_bo_responsable_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bo_responsable_grid_line, .css_bo_responsable_grid_line:hover {vertical-align: top;text-align: left;}

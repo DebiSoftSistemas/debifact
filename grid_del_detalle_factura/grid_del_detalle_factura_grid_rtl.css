@@ -1,0 +1,28 @@
+.css_df_producto_label, .css_df_producto_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_df_producto_grid_line, .css_df_producto_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_cantidad_label, .css_df_cantidad_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_cantidad_grid_line, .css_df_cantidad_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_precio_unitario_label, .css_df_precio_unitario_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_precio_unitario_grid_line, .css_df_precio_unitario_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_descuento_label, .css_df_descuento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_descuento_grid_line, .css_df_descuento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_base_iva_label, .css_df_base_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_base_iva_grid_line, .css_df_base_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_base_iva_tot_ger, .css_df_base_iva_tot_ger:hover {text-align: ;text-align: right;font-size:14px;font-weight:bold;}
+.css_df_valor_iva_label, .css_df_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_valor_iva_grid_line, .css_df_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_valor_iva_tot_ger, .css_df_valor_iva_tot_ger:hover {text-align: ;text-align: right;font-size:14px;font-weight:bold;}
+.css_df_total_label, .css_df_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_total_grid_line, .css_df_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_total_tot_ger, .css_df_total_tot_ger:hover {text-align: ;text-align: right;font-size:18px;font-weight:bold;}
+.css_df_id_label, .css_df_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_id_grid_line, .css_df_id_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_factura_label, .css_df_factura_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_df_factura_grid_line, .css_df_factura_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_empresa_label, .css_df_empresa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_df_empresa_grid_line, .css_df_empresa_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_descripcion_label, .css_df_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_df_descripcion_grid_line, .css_df_descripcion_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_df_base_iva_S_tot_ger, .css_df_base_iva_S_tot_ger:hover {text-align: right;font-size:14px;font-weight:bold;}
+.css_df_valor_iva_S_tot_ger, .css_df_valor_iva_S_tot_ger:hover {text-align: right;font-size:14px;font-weight:bold;}
+.css_df_total_S_tot_ger, .css_df_total_S_tot_ger:hover {text-align: right;font-size:18px;font-weight:bold;}

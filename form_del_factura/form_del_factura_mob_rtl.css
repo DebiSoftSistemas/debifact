@@ -1,0 +1,138 @@
+.css_fac_tipo_comprobante_label { }
+.css_fac_tipo_comprobante_line { }
+.css_fac_tipo_comprobante_obj { }
+.css_fac_establecimiento_label { }
+.css_fac_establecimiento_line {background-color:#66CCFF;text-align:left;}
+.css_fac_establecimiento_obj {background-color:#66CCFF;text-align:left;}
+.css_fac_punto_emision_label { }
+.css_fac_punto_emision_line {background-color:#66CCFF;text-align:left;}
+.css_fac_punto_emision_obj {background-color:#66CCFF;text-align:left;}
+.css_fac_secuencial_label { }
+.css_fac_secuencial_line {background-color:#66CCFF;text-align:left;}
+.css_fac_secuencial_obj {background-color:#66CCFF;text-align:left;}
+.css_fac_cliente_label { }
+.css_fac_cliente_line {text-align:left;}
+.css_fac_cliente_obj {text-align:left;width:140px;}
+.css_fac_fecha_label { }
+.css_fac_fecha_line { }
+.css_fac_fecha_obj {width:120px;}
+.css_fac_ambiente_label { }
+.css_fac_ambiente_line {background-color:#66CCFF;text-align:left;}
+.css_fac_ambiente_obj {background-color:#66CCFF;text-align:left;}
+.css_fac_tipo_libretin_label { }
+.css_fac_tipo_libretin_line {background-color:#66CCFF;}
+.css_fac_tipo_libretin_obj {background-color:#66CCFF;}
+.css_fac_subtotal_iva_label {text-align:left;}
+.css_fac_subtotal_iva_line {text-align:left;}
+.css_fac_subtotal_iva_obj {text-align:left;width:100px;}
+.css_fac_subtotal_cero_label {text-align:left;}
+.css_fac_subtotal_cero_line {text-align:left;}
+.css_fac_subtotal_cero_obj {text-align:left;width:100px;}
+.css_fac_subtotal_no_objeto_label {text-align:left;}
+.css_fac_subtotal_no_objeto_line {text-align:left;}
+.css_fac_subtotal_no_objeto_obj {text-align:left;width:100px;}
+.css_fac_subtotal_excento_label {text-align:left;}
+.css_fac_subtotal_excento_line {text-align:left;}
+.css_fac_subtotal_excento_obj {text-align:left;width:100px;}
+.css_fac_subtotal_label {text-align:left;}
+.css_fac_subtotal_line {text-align:left;}
+.css_fac_subtotal_obj {text-align:left;width:100px;}
+.css_fac_total_descuento_label {text-align:left;}
+.css_fac_total_descuento_line {text-align:left;}
+.css_fac_total_descuento_obj {text-align:left;width:100px;}
+.css_fac_valor_ice_label {text-align:left;}
+.css_fac_valor_ice_line {text-align:left;}
+.css_fac_valor_ice_obj {text-align:left;width:100px;}
+.css_fac_valor_iva_label {text-align:left;}
+.css_fac_valor_iva_line {text-align:left;}
+.css_fac_valor_iva_obj {text-align:left;width:100px;}
+.css_fac_valor_irbpnr_label {text-align:left;}
+.css_fac_valor_irbpnr_line {text-align:left;}
+.css_fac_valor_irbpnr_obj {text-align:left;width:100px;}
+.css_fac_propina_label {text-align:left;}
+.css_fac_propina_line {text-align:left;}
+.css_fac_propina_obj {text-align:left;width:100px;}
+.css_fac_total_label {font-weight:bold;text-align:left;}
+.css_fac_total_line {font-weight:bold;text-align:left;}
+.css_fac_total_obj {font-weight:bold;text-align:left;width:100px;}
+.css_fac_estado_sri_label { }
+.css_fac_estado_sri_line { }
+.css_fac_estado_sri_obj { }
+.css_fac_error_sri_label { }
+.css_fac_error_sri_line { }
+.css_fac_error_sri_obj { }
+.css_fac_serie_guia_label { }
+.css_fac_serie_guia_line { }
+.css_fac_serie_guia_obj {width:120px;}
+.css_fac_comentario_label { }
+.css_fac_comentario_line { }
+.css_fac_comentario_obj {width:320px;}
+.css_fac_aplica_propina_label { }
+.css_fac_aplica_propina_line { }
+.css_fac_aplica_propina_obj { }
+.css_fac_libretin_label { }
+.css_fac_libretin_line { }
+.css_fac_libretin_obj {width:120px;}
+.css_fac_diagnostico_label {width:250px;}
+.css_fac_diagnostico_line {text-align:left;width:250px;}
+.css_fac_diagnostico_obj {text-align:left;width:250px;}
+.css_fac_moneda_label { }
+.css_fac_moneda_line { }
+.css_fac_moneda_obj {width:120px;}
+.css_fac_transporte_usuario_label { }
+.css_fac_transporte_usuario_line {text-align:left;}
+.css_fac_transporte_usuario_obj {text-align:left;width:120px;}
+.css_fac_factura_socio_label { }
+.css_fac_factura_socio_line {text-align:left;}
+.css_fac_factura_socio_obj {text-align:left;}
+.css_fac_socio_transportista_label { }
+.css_fac_socio_transportista_line { }
+.css_fac_socio_transportista_obj { }
+.css_fac_correo_enviado_label { }
+.css_fac_correo_enviado_line { }
+.css_fac_correo_enviado_obj { }
+.css_fac_asiento_label { }
+.css_fac_asiento_line { }
+.css_fac_asiento_obj { }
+.css_ambiente_label { }
+.css_ambiente_line { }
+.css_ambiente_obj { }
+.css_tipo_libretin_label { }
+.css_tipo_libretin_line { }
+.css_tipo_libretin_obj { }
+.css_titulo_label {font-size:14px;}
+.css_titulo_line {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;text-align:left;}
+.css_titulo_obj {font-size:14px;color:#FFFFFF;background-color:#0033FF;font-weight:bold;border-width:2px;text-align:left;border-style:solid;}
+.css_ruc_label { }
+.css_ruc_line { }
+.css_ruc_obj { }
+.css_fac_valor_entrega_label {text-align:left;}
+.css_fac_valor_entrega_line {text-align:left;}
+.css_fac_valor_entrega_obj {text-align:left;width:100px;}
+.css_secuencial_label { }
+.css_secuencial_line { }
+.css_secuencial_obj {width:120px;}
+.css_fac_cambio_label {font-weight:bold;text-align:left;}
+.css_fac_cambio_line {font-weight:bold;text-align:left;}
+.css_fac_cambio_obj {font-weight:bold;text-align:left;width:100px;}
+.css_fac_email_cliente_label { }
+.css_fac_email_cliente_line { }
+.css_fac_email_cliente_obj {width:320px;}
+.css_fac_direccion_cliente_label { }
+.css_fac_direccion_cliente_line { }
+.css_fac_direccion_cliente_obj {width:320px;}
+.css_fac_nombre_cliente_label { }
+.css_fac_nombre_cliente_line { }
+.css_fac_nombre_cliente_obj {width:320px;}
+.css_forma_pago_label { }
+.css_forma_pago_line { }
+.css_forma_pago_obj { }
+.css_detalle_label { }
+.css_detalle_line { }
+.css_detalle_obj { }
+.css_establecimiento_label { }
+.css_establecimiento_line { }
+.css_establecimiento_obj { }
+.css_punto_emision_label { }
+.css_punto_emision_line { }
+.css_punto_emision_obj { }

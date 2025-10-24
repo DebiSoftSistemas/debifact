@@ -1,0 +1,79 @@
+.css_fac_fecha_label, .css_fac_fecha_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_fecha_grid_line, .css_fac_fecha_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_tipo_comprobante_label, .css_fac_tipo_comprobante_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_tipo_comprobante_grid_line, .css_fac_tipo_comprobante_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_identificacion_label, .css_cl_identificacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_identificacion_grid_line, .css_cl_identificacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_cl_nombre_label, .css_cl_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cl_nombre_grid_line, .css_cl_nombre_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_est_codigo_label, .css_est_codigo_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_est_codigo_grid_line, .css_est_codigo_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_pen_serie_label, .css_pen_serie_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_pen_serie_grid_line, .css_pen_serie_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_secuencial_label, .css_fac_secuencial_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_secuencial_grid_line, .css_fac_secuencial_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_subtotal_label, .css_fac_subtotal_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_grid_line, .css_fac_subtotal_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_tot_ger, .css_fac_subtotal_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_descuento_label, .css_fac_total_descuento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_descuento_grid_line, .css_fac_total_descuento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_descuento_tot_ger, .css_fac_total_descuento_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_valor_iva_label, .css_fac_valor_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_valor_iva_grid_line, .css_fac_valor_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_valor_iva_tot_ger, .css_fac_valor_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_propina_label, .css_fac_propina_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_propina_grid_line, .css_fac_propina_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_propina_tot_ger, .css_fac_propina_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_total_label, .css_fac_total_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_total_grid_line, .css_fac_total_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_total_tot_ger, .css_fac_total_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_estado_sri_label, .css_fac_estado_sri_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_estado_sri_grid_line, .css_fac_estado_sri_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_subtotal_iva_label, .css_fac_subtotal_iva_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_iva_grid_line, .css_fac_subtotal_iva_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_iva_tot_ger, .css_fac_subtotal_iva_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_subtotal_cero_label, .css_fac_subtotal_cero_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_cero_grid_line, .css_fac_subtotal_cero_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_cero_tot_ger, .css_fac_subtotal_cero_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_subtotal_no_objeto_label, .css_fac_subtotal_no_objeto_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_no_objeto_grid_line, .css_fac_subtotal_no_objeto_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_no_objeto_tot_ger, .css_fac_subtotal_no_objeto_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_subtotal_excento_label, .css_fac_subtotal_excento_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_subtotal_excento_grid_line, .css_fac_subtotal_excento_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_subtotal_excento_tot_ger, .css_fac_subtotal_excento_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_valor_ice_label, .css_fac_valor_ice_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_valor_ice_grid_line, .css_fac_valor_ice_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_valor_ice_tot_ger, .css_fac_valor_ice_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_valor_irbpnr_label, .css_fac_valor_irbpnr_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_fac_valor_irbpnr_grid_line, .css_fac_valor_irbpnr_grid_line:hover {vertical-align: middle;text-align: right;}
+.css_fac_valor_irbpnr_tot_ger, .css_fac_valor_irbpnr_tot_ger:hover {text-align: ;text-align: right;}
+.css_fac_comentario_label, .css_fac_comentario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_comentario_grid_line, .css_fac_comentario_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_usuario_label, .css_fac_usuario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_usuario_grid_line, .css_fac_usuario_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_autorizacion_label, .css_fac_autorizacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_autorizacion_grid_line, .css_fac_autorizacion_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_socio_transportista_label, .css_fac_socio_transportista_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fac_socio_transportista_grid_line, .css_fac_socio_transportista_grid_line:hover {vertical-align: middle;text-align: left;}
+.css_fac_subtotal_S_sub_tot, .css_fac_subtotal_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_subtotal_S_tot_ger, .css_fac_subtotal_S_tot_ger:hover {text-align: right;}
+.css_fac_total_descuento_S_sub_tot, .css_fac_total_descuento_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_total_descuento_S_tot_ger, .css_fac_total_descuento_S_tot_ger:hover {text-align: right;}
+.css_fac_valor_iva_S_sub_tot, .css_fac_valor_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_valor_iva_S_tot_ger, .css_fac_valor_iva_S_tot_ger:hover {text-align: right;}
+.css_fac_propina_S_sub_tot, .css_fac_propina_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_propina_S_tot_ger, .css_fac_propina_S_tot_ger:hover {text-align: right;}
+.css_fac_total_S_sub_tot, .css_fac_total_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_total_S_tot_ger, .css_fac_total_S_tot_ger:hover {text-align: right;}
+.css_fac_subtotal_iva_S_sub_tot, .css_fac_subtotal_iva_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_subtotal_iva_S_tot_ger, .css_fac_subtotal_iva_S_tot_ger:hover {text-align: right;}
+.css_fac_subtotal_cero_S_sub_tot, .css_fac_subtotal_cero_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_subtotal_cero_S_tot_ger, .css_fac_subtotal_cero_S_tot_ger:hover {text-align: right;}
+.css_fac_subtotal_no_objeto_S_sub_tot, .css_fac_subtotal_no_objeto_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_subtotal_no_objeto_S_tot_ger, .css_fac_subtotal_no_objeto_S_tot_ger:hover {text-align: right;}
+.css_fac_subtotal_excento_S_sub_tot, .css_fac_subtotal_excento_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_subtotal_excento_S_tot_ger, .css_fac_subtotal_excento_S_tot_ger:hover {text-align: right;}
+.css_fac_valor_ice_S_sub_tot, .css_fac_valor_ice_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_valor_ice_S_tot_ger, .css_fac_valor_ice_S_tot_ger:hover {text-align: right;}
+.css_fac_valor_irbpnr_S_sub_tot, .css_fac_valor_irbpnr_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_fac_valor_irbpnr_S_tot_ger, .css_fac_valor_irbpnr_S_tot_ger:hover {text-align: right;}
