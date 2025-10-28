@@ -6887,7 +6887,7 @@ else
    $unformatted_value_fac_valor_entrega = $this->fac_valor_entrega;
    $unformatted_value_fac_cambio = $this->fac_cambio;
 
-   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
+   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' and upe_estado='V' and usu_estado='V' and pem_estado='V' and est_estado='V' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
 
    $this->fac_factura_socio = $old_value_fac_factura_socio;
    $this->fac_fecha = $old_value_fac_fecha;
@@ -9118,9 +9118,10 @@ if ($this->fac_total ==0){
 		$this->sc_temp_var_procesar=false;
 		$this->sc_temp_var_mensaje='El valor a facturar no debe ser 0<br>';
 }else{	
-	$check_sql = "SELECT coalesce(sum(fp_valor),0) 
-			  FROM del_forma_pago_factura
-		 	  WHERE fp_factura=".$this->fac_numero ;
+	$check_sql = "SELECT 
+				  		coalesce(sum(fp_valor),0) 
+			  	  FROM del_forma_pago_factura
+		 	  	  WHERE fp_factura=".$this->fac_numero ;
 	 
       $nm_select = $check_sql; 
       $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_select; 
@@ -21308,7 +21309,7 @@ else
    $unformatted_value_fac_valor_entrega = $this->fac_valor_entrega;
    $unformatted_value_fac_cambio = $this->fac_cambio;
 
-   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
+   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' and upe_estado='V' and usu_estado='V' and pem_estado='V' and est_estado='V' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
 
    $this->fac_factura_socio = $old_value_fac_factura_socio;
    $this->fac_fecha = $old_value_fac_fecha;

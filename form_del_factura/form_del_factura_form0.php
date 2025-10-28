@@ -2017,7 +2017,7 @@ else
    $unformatted_value_fac_valor_entrega = $this->fac_valor_entrega;
    $unformatted_value_fac_cambio = $this->fac_cambio;
 
-   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
+   $nm_comando = "SELECT lib_id,est_codigo||'-'||pen_serie ||coalesce( '-' || pem_nombre,'') FROM v_del_libretin where lib_estado='A' and est_empresa='" . $_SESSION['Igtech_RucEmpresa'] . "' and pem_usuario='" . $_SESSION['Igtech_SesionLogin'] . "' and upe_estado='V' and usu_estado='V' and pem_estado='V' and est_estado='V' AND lib_tipo_comprobante in ('01','99') order by pen_serie";
 
    $this->fac_factura_socio = $old_value_fac_factura_socio;
    $this->fac_fecha = $old_value_fac_fecha;
