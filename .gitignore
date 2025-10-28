@@ -1,0 +1,10 @@
+*.txt
+/_lib/conf
+/_lib/conf/prod.config.php
+/_lib/tmp
+/_lib/file
+/_lib/file/img/
+/_lib/file/doc/
+!/_lib/file/img/menu/*
+!/_lib/file/img/promociones/*
+!/_lib/file/doc/plantillas_excel/*
